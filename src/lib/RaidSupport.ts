@@ -10,6 +10,8 @@ type RaidProfile = {
   weakness: Monster['weakness']; immunities: { burn: string | null };
   notes: string[]; source: { url?: string; timestamp?: string };
   demonbaneVulnerability?: number;
+  defenceFloorPercent?: number;
+  defenceReductionSource?: { url: string; checkedAt: string };
   encounterNote?: string;
   attributeSource?: { url: string; checkedAt: string };
 };
@@ -38,6 +40,14 @@ export const getRaidMonsters = (): Omit<Monster, 'inputs'>[] => rows.map((row, i
 } as Omit<Monster, 'inputs'>));
 
 export const getRaidProfile = (monster: Pick<Monster, 'name'>) => rows.find((r) => r.name === monster.name);
+
+export const getRaidDefenceFloor = (monster: Pick<Monster, 'id' | 'name'>): number | undefined => {
+  if (monster.id === -1) return undefined;
+  const raid = getRaidProfile(monster);
+  if (raid?.defenceFloorPercent === undefined || raid.skills.def === null) return undefined;
+  // Use the published base level, even when the displayed monster is already drained.
+  return Math.trunc(raid.skills.def * raid.defenceFloorPercent / 100);
+};
 
 export const calculationBlocker = (player: Player, monster: Monster): string | undefined => {
   for (const item of Object.values(player.equipment)) {

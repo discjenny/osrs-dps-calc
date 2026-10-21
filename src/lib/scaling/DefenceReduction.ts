@@ -18,8 +18,11 @@ import {
 import { keys } from '@/utils';
 import { MonsterAttribute } from '@/enums/MonsterAttribute';
 import { Factor } from '@/lib/Math';
+import { getRaidDefenceFloor } from '@/lib/RaidSupport';
 
 export const getDefenceFloor = (m: Monster): number => {
+  const raidFloor = getRaidDefenceFloor(m);
+  if (raidFloor !== undefined) return raidFloor;
   if (VERZIK_IDS.includes(m.id) || VARDORVIS_IDS.includes(m.id)) {
     return m.skills.def;
   }

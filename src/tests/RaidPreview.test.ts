@@ -35,7 +35,7 @@ test('browser engine reproduces the Bowfa comparison and hammer threshold', () =
   expect(calculationBlocker(p, m)).toBeUndefined();
   expect(new PlayerVsNPCCalc(p, m).getDps()).toBeCloseTo(3.515, 3);
   m.inputs.defenceReductions.dwh = 2;
-  expect(scaleMonster(m).skills.def).toBe(123);
+  expect(scaleMonster(m).skills.def).toBe(150);
 });
 
 test('browser engine reproduces the compact bludgeon swap', () => {

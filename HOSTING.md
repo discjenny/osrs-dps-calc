@@ -54,8 +54,12 @@ The profile JSON records the review sources and the separately checked Xarth and
 Ezekiel stab defences (115 and 150).
 
 Items with unimplemented new mechanics and calculations needing unpublished NPC
-stats display an explanation rather than a DPS figure. Raid Defence drains are
-what-if scenarios: encounter restoration, floors and resets are unverified.
+stats display an explanation rather than a DPS figure. The official 21 October
+Defence hotfix is enforced: Guardian, Bork, Ezekiel, Moia, Xarth and Ocellus stop
+at 60% of base Defence. Dreadnoth, Smorks, the Dagon'hai trio and the P2 Blade can
+reach zero. Ocellus P3 drains persist between quadrants. Other phase transitions,
+add-specific floors and encounter restrictions remain unverified. Earlier
+below-floor comparisons for capped bosses are obsolete.
 See the site's Sources and limitations page for details.
 
 UI changes are limited to a preview/source notice, guards for incomplete data,

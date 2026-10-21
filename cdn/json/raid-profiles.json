@@ -70,12 +70,18 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Ezekiel": {
       "name": "Ezekiel",
@@ -144,7 +150,8 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -155,6 +162,11 @@
           "url": "https://oldschool.runescape.wiki/w/Ezekiel",
           "checkedAt": "2026-10-21T13:45:22.557Z"
         }
+      },
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
       }
     },
     "Dreadnoth the Jellied": {
@@ -228,7 +240,8 @@
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
-        "demonbaneVulnerability": "wiki"
+        "demonbaneVulnerability": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -238,6 +251,11 @@
       "attributeSource": {
         "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
         "checkedAt": "2026-10-21T13:45:22.557Z"
+      },
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
       }
     },
     "Xarth": {
@@ -309,7 +327,8 @@
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
-        "demonbaneVulnerability": "wiki"
+        "demonbaneVulnerability": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -325,7 +344,13 @@
           "url": "https://oldschool.runescape.wiki/w/Xarth",
           "checkedAt": "2026-10-21T13:45:22.557Z"
         }
-      }
+      },
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      },
+      "encounterNote": "Jagex confirms melee is intended for the final phase. Raw DPS does not model positioning, hazards or time spent unable to attack."
     },
     "Bork": {
       "name": "Bork",
@@ -394,12 +419,18 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "wiki"
+        "defensive.flat_armour": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
         "Wiki lists flat armour 12 normally and 0 when stunned."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "The Smorks": {
       "name": "The Smorks",
@@ -468,12 +499,18 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Moia": {
       "name": "Moia",
@@ -542,12 +579,18 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Dagon'hai Elder": {
       "name": "Dagon'hai Elder",
@@ -611,12 +654,18 @@
         "defensive.light": "unpublished",
         "defensive.standard": "unpublished",
         "defensive.heavy": "unpublished",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Dagon'hai Monk": {
       "name": "Dagon'hai Monk",
@@ -680,12 +729,18 @@
         "defensive.light": "unpublished",
         "defensive.standard": "unpublished",
         "defensive.heavy": "unpublished",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Ocellus phase 1": {
       "name": "Ocellus phase 1",
@@ -753,7 +808,8 @@
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
-        "demonbaneVulnerability": "wiki"
+        "demonbaneVulnerability": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -763,6 +819,11 @@
       "attributeSource": {
         "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
         "checkedAt": "2026-10-21T13:45:22.557Z"
+      },
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
       }
     },
     "Ocellus phase 2": {
@@ -827,13 +888,19 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
         "Phase 2 HP and NPC ID are unpublished; calculations requiring HP are unavailable."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Ocellus phase 3": {
       "name": "Ocellus phase 3",
@@ -903,7 +970,8 @@
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
-        "demonbaneVulnerability": "wiki"
+        "demonbaneVulnerability": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -913,7 +981,13 @@
       "attributeSource": {
         "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
         "checkedAt": "2026-10-21T13:45:22.557Z"
-      }
+      },
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      },
+      "encounterNote": "Official 21 October hotfix: Defence reductions persist between P3 quadrants. Drain to the floor once, then use damage special attacks. This does not assert persistence across other phase transitions."
     },
     "Bork (stunned)": {
       "name": "Bork (stunned)",
@@ -982,12 +1056,18 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "wiki"
+        "defensive.flat_armour": "wiki",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
         "Wiki lists flat armour 12 normally and 0 when stunned."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Archive Guardian (unshielded)": {
       "name": "Archive Guardian (unshielded)",
@@ -1035,13 +1115,19 @@
         "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
       },
       "status": {
-        "profile": "provisional screenshot"
+        "profile": "provisional screenshot",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Phase-specific stats are not independently published. Ranged defence is unknown.",
         "Flat armour assumed 0; no encounter scaling/modifiers.",
         "Fire weakness copied from Guardian article; unshielded phase not independently verified."
-      ]
+      ],
+      "defenceFloorPercent": 60,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "The Blade (Ocellus phase 2)": {
       "name": "The Blade (Ocellus phase 2)",
@@ -1086,12 +1172,18 @@
         "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
       },
       "status": {
-        "profile": "provisional screenshot"
+        "profile": "provisional screenshot",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Phase-specific stats are not independently published. Ranged defence is unknown.",
         "Flat armour assumed 0; no encounter scaling/modifiers."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Dagon'hai (shielded)": {
       "name": "Dagon'hai (shielded)",
@@ -1136,12 +1228,18 @@
         "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
       },
       "status": {
-        "profile": "provisional screenshot"
+        "profile": "provisional screenshot",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Phase-specific stats are not independently published. Ranged defence is unknown.",
         "Flat armour assumed 0; no encounter scaling/modifiers."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Dagon'hai (unshielded)": {
       "name": "Dagon'hai (unshielded)",
@@ -1186,12 +1284,18 @@
         "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
       },
       "status": {
-        "profile": "provisional screenshot"
+        "profile": "provisional screenshot",
+        "defenceFloorPercent": "official hotfix"
       },
       "notes": [
         "Phase-specific stats are not independently published. Ranged defence is unknown.",
         "Flat armour assumed 0; no encounter scaling/modifiers."
-      ]
+      ],
+      "defenceFloorPercent": 0,
+      "defenceReductionSource": {
+        "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+        "checkedAt": "2026-10-21T15:01:00.083Z"
+      }
     },
     "Inert Guardian": {
       "name": "Inert Guardian",
@@ -1952,6 +2056,15 @@
     "notes": [
       "All 13 remaining add/object rows in the supplied NPC table are now included. Names are qualified where needed to avoid confusing raid adds with ordinary monsters.",
       "No demon or undead attributes inferred from names or appearance. Ranged calculations remain blocked while bonuses are unpublished."
+    ]
+  },
+  "defenceReductionReview": {
+    "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
+    "checkedAt": "2026-10-21T15:01:00.083Z",
+    "notes": [
+      "The stated 60% cap means a floor of 60% of base Defence, not a 60% reduction.",
+      "No caps have been inferred for adds not named in the announcement. Magic-level and magic-defence-bonus reductions are not assigned new caps by this update.",
+      "Ocellus P3 quadrant transitions no longer restore Defence. Old below-floor comparisons are obsolete."
     ]
   }
 }
