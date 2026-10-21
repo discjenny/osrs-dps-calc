@@ -25,6 +25,11 @@ const LazyImage: React.FC<ILazyImageProps> = (props) => {
         {...imgProps}
         className={`${responsive ? 'max-h-full max-w-full object-contain' : ''} ${(showSpinner && loading) ? 'hidden' : 'visible'}`}
         onLoad={() => setLoading(false)}
+        onError={(event) => {
+          setLoading(false);
+          const fallback = `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/placeholder.svg`;
+          if (!event.currentTarget.src.endsWith('/placeholder.svg')) event.currentTarget.src = fallback;
+        }}
       />
     </>
   );
