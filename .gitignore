@@ -36,5 +36,14 @@ yarn-error.log*
 
 .idea/
 .yarn/install-state.gz
+.yarn/cache/
+.yarn/global/
+/.yarn/unplugged/
+/artifacts/
+/public/cdn/
+/public/sources.html
+/public/LICENSE.txt
+/full-tests.log
+/build-preview.log
 
 /scripts/.venv/

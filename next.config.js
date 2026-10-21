@@ -31,24 +31,11 @@ let nextConfig = {
     'internmap'
   ],
   env: {
+    SOURCE_REPOSITORY: `https://github.com/${process.env.GITHUB_REPOSITORY || 'weirdgloop/osrs-dps-calc'}`,
     GIT_SHA: gitSha,
     GIT_SHA_SHORT: gitShaShort,
     GIT_DIRTY: gitDirty,
   },
-  async redirects() {
-    if (process.env.NEXT_PUBLIC_BASE_PATH) {
-      return [
-        {
-          source: '/',
-          destination: process.env.NEXT_PUBLIC_BASE_PATH,
-          basePath: false,
-          permanent: true
-        }
-      ]
-    } else {
-      return [];
-    }
-  }
 }
 
 if (shouldAnalyse) {

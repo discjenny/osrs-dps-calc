@@ -4,6 +4,8 @@
   "private": true,
   "author": "Jayden Bailey (https://weirdgloop.org)",
   "scripts": {
+    "prepare:preview": "node scripts/prepare-preview.cjs",
+    "build:preview": "node scripts/prepare-preview.cjs && next build",
     "dev": "next dev",
     "build": "next build",
     "build-staging": "env-cmd -f .env.staging next build",
