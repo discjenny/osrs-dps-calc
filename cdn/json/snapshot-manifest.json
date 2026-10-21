@@ -1,0 +1,13 @@
+{
+  "retrievedAt": "2026-10-20T17:09:03.001Z",
+  "source": "https://oldschool.runescape.wiki/api.php",
+  "license": "CC BY-NC-SA 3.0; OSRS Wiki additional terms apply",
+  "equipmentCount": 5462,
+  "rawRows": 5791,
+  "files": {
+    "equipment.json": "9ba1efc7c06b73a5c19367cbd2db39b352b29ff7cf6bbad54a73c6f26375fff1",
+    "equipment-raw.json": "e1840f88d3adf34df36feb24d70887a205fde7fcee38c128a414330fd16f19ea",
+    "wiki-pages.json": "967f93e99c480bdaed842d6d2ceaad35464d71da26eb8916aa614c8d5e2065c4",
+    "rejected.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+  }
+}

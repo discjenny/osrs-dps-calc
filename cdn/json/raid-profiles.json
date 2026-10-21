@@ -1,0 +1,1169 @@
+{
+  "checkedAt": "2026-10-20T17:13:36.308Z",
+  "bosses": {
+    "Archive Guardian (shielded)": {
+      "name": "Archive Guardian (shielded)",
+      "version": "",
+      "sourceNpcIds": [
+        16659
+      ],
+      "size": 5,
+      "speed": 5,
+      "skills": {
+        "hp": 550,
+        "atk": 250,
+        "str": 240,
+        "def": 260,
+        "magic": 250,
+        "ranged": 280
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": 350,
+        "magic_str": 55,
+        "ranged": 350,
+        "ranged_str": 55
+      },
+      "defensive": {
+        "stab": 120,
+        "slash": 110,
+        "crush": 20,
+        "magic": 130,
+        "light": 75,
+        "standard": 120,
+        "heavy": 50,
+        "flat_armour": null
+      },
+      "attributes": [
+        "flying"
+      ],
+      "weakness": {
+        "element": "fire",
+        "severity": 80
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Archive_Guardian?oldid=15377761",
+        "revision": 15377761,
+        "timestamp": "2026-10-20T17:03:41Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "wiki",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Ezekiel": {
+      "name": "Ezekiel",
+      "version": "",
+      "sourceNpcIds": [
+        16652
+      ],
+      "size": 3,
+      "speed": 5,
+      "skills": {
+        "hp": 3000,
+        "atk": 250,
+        "str": 150,
+        "def": 130,
+        "magic": 200,
+        "ranged": 80
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": 250,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": null,
+        "slash": 90,
+        "crush": 35,
+        "magic": 200,
+        "light": 445,
+        "standard": 370,
+        "heavy": 320,
+        "flat_armour": null
+      },
+      "attributes": [
+        "|xpbonus ="
+      ],
+      "weakness": {
+        "element": "earth",
+        "severity": 25
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Ezekiel?oldid=15377642",
+        "revision": 15377642,
+        "timestamp": "2026-10-20T15:29:05Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "unpublished",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Dreadnoth the Jellied": {
+      "name": "Dreadnoth the Jellied",
+      "version": "",
+      "sourceNpcIds": [
+        16665
+      ],
+      "size": 5,
+      "speed": 4,
+      "skills": {
+        "hp": 2100,
+        "atk": 280,
+        "str": 285,
+        "def": 125,
+        "magic": 220,
+        "ranged": 250
+      },
+      "offensive": {
+        "atk": 185,
+        "str": 35,
+        "magic": 0,
+        "magic_str": 0,
+        "ranged": 180,
+        "ranged_str": 20
+      },
+      "defensive": {
+        "stab": 15,
+        "slash": 20,
+        "crush": 5,
+        "magic": 20,
+        "light": 100,
+        "standard": 80,
+        "heavy": 80,
+        "flat_armour": null
+      },
+      "attributes": [
+        "|xpbonus ="
+      ],
+      "weakness": {
+        "element": "fire",
+        "severity": 85
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Dreadnoth_the_Jellied?oldid=15377524",
+        "revision": 15377524,
+        "timestamp": "2026-10-20T14:26:22Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "wiki",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Xarth": {
+      "name": "Xarth",
+      "version": "",
+      "sourceNpcIds": [],
+      "size": 3,
+      "speed": null,
+      "skills": {
+        "hp": 2600,
+        "atk": 250,
+        "str": 225,
+        "def": 170,
+        "magic": 350,
+        "ranged": 220
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": 250,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": null,
+        "slash": 105,
+        "crush": 20,
+        "magic": 205,
+        "light": 125,
+        "standard": 230,
+        "heavy": 155,
+        "flat_armour": null
+      },
+      "attributes": [
+        "demon"
+      ],
+      "weakness": {
+        "element": "water",
+        "severity": 85
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Xarth?oldid=15377519",
+        "revision": 15377519,
+        "timestamp": "2026-10-20T14:25:24Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "unpublished",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Bork": {
+      "name": "Bork",
+      "version": "",
+      "sourceNpcIds": [
+        16640
+      ],
+      "size": 4,
+      "speed": 7,
+      "skills": {
+        "hp": 1500,
+        "atk": 200,
+        "str": 200,
+        "def": 300,
+        "magic": 90,
+        "ranged": 200
+      },
+      "offensive": {
+        "atk": 100,
+        "str": 40,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 140,
+        "slash": 130,
+        "crush": 10,
+        "magic": 300,
+        "light": 80,
+        "standard": 50,
+        "heavy": 5,
+        "flat_armour": 12
+      },
+      "attributes": [
+        "|xpbonus ="
+      ],
+      "weakness": {
+        "element": "earth",
+        "severity": 40
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15377670",
+        "revision": 15377670,
+        "timestamp": "2026-10-20T15:46:13Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "unpublished",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "wiki"
+      },
+      "notes": [
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
+        "Wiki lists flat armour 12 normally and 0 when stunned."
+      ]
+    },
+    "The Smorks": {
+      "name": "The Smorks",
+      "version": "",
+      "sourceNpcIds": [
+        16641
+      ],
+      "size": 3,
+      "speed": 7,
+      "skills": {
+        "hp": 600,
+        "atk": 1,
+        "str": 1,
+        "def": 220,
+        "magic": 185,
+        "ranged": 185
+      },
+      "offensive": {
+        "atk": 0,
+        "str": 0,
+        "magic": 185,
+        "magic_str": 35,
+        "ranged": 250,
+        "ranged_str": 30
+      },
+      "defensive": {
+        "stab": 220,
+        "slash": 170,
+        "crush": 160,
+        "magic": 400,
+        "light": 80,
+        "standard": 150,
+        "heavy": 80,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": {
+        "element": "earth",
+        "severity": 85
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/The_Smorks?oldid=15377529",
+        "revision": 15377529,
+        "timestamp": "2026-10-20T14:27:12Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "wiki",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Moia": {
+      "name": "Moia",
+      "version": "",
+      "sourceNpcIds": [
+        16667
+      ],
+      "size": 3,
+      "speed": 5,
+      "skills": {
+        "hp": 785,
+        "atk": 1,
+        "str": 1,
+        "def": 195,
+        "magic": 350,
+        "ranged": 200
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": 300,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": 35
+      },
+      "defensive": {
+        "stab": 20,
+        "slash": 110,
+        "crush": 15,
+        "magic": 30,
+        "light": 60,
+        "standard": 120,
+        "heavy": 140,
+        "flat_armour": null
+      },
+      "attributes": [
+        "|xpbonus ="
+      ],
+      "weakness": {
+        "element": "|elementalweaknesspercent =",
+        "severity": null
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Moia?oldid=15377574",
+        "revision": 15377574,
+        "timestamp": "2026-10-20T14:49:29Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Dagon'hai Elder": {
+      "name": "Dagon'hai Elder",
+      "version": "",
+      "sourceNpcIds": [],
+      "size": 2,
+      "speed": null,
+      "skills": {
+        "hp": null,
+        "atk": null,
+        "str": null,
+        "def": null,
+        "magic": null,
+        "ranged": null
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": null,
+        "slash": null,
+        "crush": null,
+        "magic": null,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Elder?oldid=15377555",
+        "revision": 15377555,
+        "timestamp": "2026-10-20T14:36:18Z"
+      },
+      "status": {
+        "skills.hp": "unpublished",
+        "skills.atk": "unpublished",
+        "skills.str": "unpublished",
+        "skills.def": "unpublished",
+        "skills.magic": "unpublished",
+        "skills.ranged": "unpublished",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "unpublished",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "unpublished",
+        "defensive.slash": "unpublished",
+        "defensive.crush": "unpublished",
+        "defensive.magic": "unpublished",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Dagon'hai Monk": {
+      "name": "Dagon'hai Monk",
+      "version": "",
+      "sourceNpcIds": [],
+      "size": 2,
+      "speed": null,
+      "skills": {
+        "hp": null,
+        "atk": null,
+        "str": null,
+        "def": null,
+        "magic": null,
+        "ranged": null
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": null,
+        "slash": null,
+        "crush": null,
+        "magic": null,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Monk?oldid=15377578",
+        "revision": 15377578,
+        "timestamp": "2026-10-20T14:51:07Z"
+      },
+      "status": {
+        "skills.hp": "unpublished",
+        "skills.atk": "unpublished",
+        "skills.str": "unpublished",
+        "skills.def": "unpublished",
+        "skills.magic": "unpublished",
+        "skills.ranged": "unpublished",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "unpublished",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "unpublished",
+        "defensive.slash": "unpublished",
+        "defensive.crush": "unpublished",
+        "defensive.magic": "unpublished",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Ocellus phase 1": {
+      "name": "Ocellus phase 1",
+      "version": "Phase 1",
+      "sourceNpcIds": [],
+      "size": 3,
+      "speed": null,
+      "skills": {
+        "hp": 2500,
+        "atk": 1,
+        "str": 1,
+        "def": 215,
+        "magic": 350,
+        "ranged": 250
+      },
+      "offensive": {
+        "atk": 1,
+        "str": 1,
+        "magic": 150,
+        "magic_str": null,
+        "ranged": 150,
+        "ranged_str": 0
+      },
+      "defensive": {
+        "stab": 150,
+        "slash": 95,
+        "crush": 60,
+        "magic": 100,
+        "light": 50,
+        "standard": 135,
+        "heavy": 50,
+        "flat_armour": null
+      },
+      "attributes": [
+        "demon"
+      ],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
+        "revision": 15377734,
+        "timestamp": "2026-10-20T16:30:33Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Ocellus phase 2": {
+      "name": "Ocellus phase 2",
+      "version": "Phase 2",
+      "sourceNpcIds": [],
+      "size": 3,
+      "speed": 0,
+      "skills": {
+        "hp": null,
+        "atk": 1,
+        "str": 1,
+        "def": 250,
+        "magic": 220,
+        "ranged": 1
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 150,
+        "slash": 120,
+        "crush": 10,
+        "magic": 100,
+        "light": 100,
+        "standard": 110,
+        "heavy": 80,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
+        "revision": 15377734,
+        "timestamp": "2026-10-20T16:30:33Z"
+      },
+      "status": {
+        "skills.hp": "unpublished",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "unpublished",
+        "offensive.str": "unpublished",
+        "offensive.magic": "unpublished",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
+        "Phase 2 HP and NPC ID are unpublished; calculations requiring HP are unavailable."
+      ]
+    },
+    "Ocellus phase 3": {
+      "name": "Ocellus phase 3",
+      "version": "Phase 3",
+      "sourceNpcIds": [
+        16677
+      ],
+      "size": 3,
+      "speed": 6,
+      "skills": {
+        "hp": 5250,
+        "atk": 325,
+        "str": 250,
+        "def": 250,
+        "magic": 300,
+        "ranged": 300
+      },
+      "offensive": {
+        "atk": 150,
+        "str": 10,
+        "magic": 350,
+        "magic_str": null,
+        "ranged": 0,
+        "ranged_str": 0
+      },
+      "defensive": {
+        "stab": 150,
+        "slash": 100,
+        "crush": 30,
+        "magic": 200,
+        "light": 250,
+        "standard": 250,
+        "heavy": 250,
+        "flat_armour": null
+      },
+      "attributes": [
+        "demon"
+      ],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
+        "revision": 15377734,
+        "timestamp": "2026-10-20T16:30:33Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "unpublished"
+      },
+      "notes": [
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+      ]
+    },
+    "Bork (stunned)": {
+      "name": "Bork (stunned)",
+      "version": "Stunned",
+      "sourceNpcIds": [
+        16640
+      ],
+      "size": 4,
+      "speed": 7,
+      "skills": {
+        "hp": 1500,
+        "atk": 200,
+        "str": 200,
+        "def": 300,
+        "magic": 90,
+        "ranged": 200
+      },
+      "offensive": {
+        "atk": 100,
+        "str": 40,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 140,
+        "slash": 130,
+        "crush": 10,
+        "magic": 300,
+        "light": 80,
+        "standard": 50,
+        "heavy": 5,
+        "flat_armour": 0
+      },
+      "attributes": [
+        "|xpbonus ="
+      ],
+      "weakness": {
+        "element": "earth",
+        "severity": 40
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15377670",
+        "revision": 15377670,
+        "timestamp": "2026-10-20T15:46:13Z"
+      },
+      "status": {
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
+        "offensive.magic": "unpublished",
+        "offensive.magic_str": "unpublished",
+        "offensive.ranged": "unpublished",
+        "offensive.ranged_str": "unpublished",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "defensive.flat_armour": "wiki"
+      },
+      "notes": [
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
+        "Wiki lists flat armour 12 normally and 0 when stunned."
+      ]
+    },
+    "Archive Guardian (unshielded)": {
+      "name": "Archive Guardian (unshielded)",
+      "version": "Provisional screenshot",
+      "sourceNpcIds": [
+        16660
+      ],
+      "size": 5,
+      "speed": 5,
+      "skills": {
+        "hp": 1100,
+        "atk": 250,
+        "str": 240,
+        "def": 260,
+        "ranged": 280,
+        "magic": 250
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 120,
+        "slash": 90,
+        "crush": 20,
+        "magic": 130,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": {
+        "element": "fire",
+        "severity": 80
+      },
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
+      },
+      "status": {
+        "profile": "provisional screenshot"
+      },
+      "notes": [
+        "Phase-specific stats are not independently published. Ranged defence is unknown.",
+        "Flat armour assumed 0; no encounter scaling/modifiers.",
+        "Fire weakness copied from Guardian article; unshielded phase not independently verified."
+      ]
+    },
+    "The Blade (Ocellus phase 2)": {
+      "name": "The Blade (Ocellus phase 2)",
+      "version": "Provisional screenshot",
+      "sourceNpcIds": [
+        16676
+      ],
+      "size": 3,
+      "speed": 0,
+      "skills": {
+        "hp": 1000,
+        "atk": 1,
+        "str": 1,
+        "def": 250,
+        "ranged": 1,
+        "magic": 220
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 150,
+        "slash": 120,
+        "crush": 10,
+        "magic": 100,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
+      },
+      "status": {
+        "profile": "provisional screenshot"
+      },
+      "notes": [
+        "Phase-specific stats are not independently published. Ranged defence is unknown.",
+        "Flat armour assumed 0; no encounter scaling/modifiers."
+      ]
+    },
+    "Dagon'hai (shielded)": {
+      "name": "Dagon'hai (shielded)",
+      "version": "Provisional screenshot",
+      "sourceNpcIds": [
+        16643
+      ],
+      "size": 2,
+      "speed": 6,
+      "skills": {
+        "hp": 640,
+        "atk": 1,
+        "str": 1,
+        "def": 100,
+        "ranged": 260,
+        "magic": 290
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 200,
+        "slash": 50,
+        "crush": 50,
+        "magic": 100,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
+      },
+      "status": {
+        "profile": "provisional screenshot"
+      },
+      "notes": [
+        "Phase-specific stats are not independently published. Ranged defence is unknown.",
+        "Flat armour assumed 0; no encounter scaling/modifiers."
+      ]
+    },
+    "Dagon'hai (unshielded)": {
+      "name": "Dagon'hai (unshielded)",
+      "version": "Provisional screenshot",
+      "sourceNpcIds": [
+        16644
+      ],
+      "size": 2,
+      "speed": 6,
+      "skills": {
+        "hp": 640,
+        "atk": 1,
+        "str": 1,
+        "def": 100,
+        "ranged": 260,
+        "magic": 290
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 50,
+        "slash": 50,
+        "crush": 50,
+        "magic": 100,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
+      },
+      "status": {
+        "profile": "provisional screenshot"
+      },
+      "notes": [
+        "Phase-specific stats are not independently published. Ranged defence is unknown.",
+        "Flat armour assumed 0; no encounter scaling/modifiers."
+      ]
+    }
+  },
+  "aliases": {
+    "Archive Guardian": "Archive Guardian (shielded)",
+    "Ocellus phases 2-3": "Ocellus phase 3"
+  }
+}
