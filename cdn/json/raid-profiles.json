@@ -1192,6 +1192,741 @@
         "Phase-specific stats are not independently published. Ranged defence is unknown.",
         "Flat armour assumed 0; no encounter scaling/modifiers."
       ]
+    },
+    "Inert Guardian": {
+      "name": "Inert Guardian",
+      "version": "Archive Guardian battery / mushroom; provisional stats",
+      "sourceNpcIds": [
+        16662
+      ],
+      "size": 2,
+      "speed": 0,
+      "skills": {
+        "hp": 180,
+        "atk": 1,
+        "str": 1,
+        "def": 50,
+        "ranged": 1,
+        "magic": 50
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 20,
+        "crush": -20,
+        "magic": -20,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Cauldron (Fractured Archive)": {
+      "name": "Cauldron (Fractured Archive)",
+      "version": "Dagon'hai focus; provisional stats",
+      "sourceNpcIds": [
+        16649
+      ],
+      "size": 3,
+      "speed": 0,
+      "skills": {
+        "hp": 1000,
+        "atk": 1,
+        "str": 1,
+        "def": 1,
+        "ranged": 1,
+        "magic": 1
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Dagon'hai focus object. Attackability and encounter-specific damage rules are not verified; these results only compare its provisional raw stats."
+    },
+    "Imp (Fractured Archive)": {
+      "name": "Imp (Fractured Archive)",
+      "version": "Ezekiel add; provisional stats",
+      "sourceNpcIds": [
+        16650
+      ],
+      "size": 1,
+      "speed": 4,
+      "skills": {
+        "hp": 44,
+        "atk": 250,
+        "str": 195,
+        "def": 50,
+        "ranged": 66,
+        "magic": 125
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Demonic rift (Fractured Archive)": {
+      "name": "Demonic rift (Fractured Archive)",
+      "version": "Ezekiel add; provisional stats",
+      "sourceNpcIds": [
+        16651
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 20,
+        "atk": 1,
+        "str": 1,
+        "def": 20,
+        "ranged": 1,
+        "magic": 1
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Animated Sword (Fractured Archive)": {
+      "name": "Animated Sword (Fractured Archive)",
+      "version": "Ezekiel add; provisional stats",
+      "sourceNpcIds": [
+        16653
+      ],
+      "size": 3,
+      "speed": 0,
+      "skills": {
+        "hp": 80,
+        "atk": 1,
+        "str": 1,
+        "def": 115,
+        "ranged": 1,
+        "magic": 90
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 100,
+        "slash": 100,
+        "crush": 100,
+        "magic": 100,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Jelly (Fractured Archive)": {
+      "name": "Jelly (Fractured Archive)",
+      "version": "Dreadnoth add; provisional stats",
+      "sourceNpcIds": [
+        16666
+      ],
+      "size": 1,
+      "speed": 5,
+      "skills": {
+        "hp": 75,
+        "atk": 200,
+        "str": 160,
+        "def": 100,
+        "ranged": 1,
+        "magic": 100
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 4,
+        "slash": 5,
+        "crush": 0,
+        "magic": 15,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Undead binder": {
+      "name": "Undead binder",
+      "version": "Moia add; provisional stats",
+      "sourceNpcIds": [
+        16670
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 95,
+        "atk": 1,
+        "str": 1,
+        "def": 170,
+        "ranged": 225,
+        "magic": 1
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 50,
+        "slash": 12,
+        "crush": 15,
+        "magic": -20,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Corpse (Xarth)": {
+      "name": "Corpse (Xarth)",
+      "version": "Normal; provisional stats",
+      "sourceNpcIds": [
+        16687
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 62,
+        "atk": 50,
+        "str": 40,
+        "def": 100,
+        "ranged": 1,
+        "magic": 100
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 100,
+        "slash": 100,
+        "crush": 100,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)",
+        "checkedAt": "2026-10-21T13:55:26.831Z"
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Corpse spell-speed overrides, dousing transitions, extra corpse spawns and healing are not simulated. These are raw stat comparisons at normal weapon/spell speed."
+    },
+    "Corpse (Xarth, doused)": {
+      "name": "Corpse (Xarth, doused)",
+      "version": "Doused; provisional stats",
+      "sourceNpcIds": [
+        16688
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 62,
+        "atk": 50,
+        "str": 40,
+        "def": 100,
+        "ranged": 1,
+        "magic": 100
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": -20,
+        "slash": -20,
+        "crush": -20,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)",
+        "checkedAt": "2026-10-21T13:55:26.831Z"
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Corpse spell-speed overrides, dousing transitions, extra corpse spawns and healing are not simulated. These are raw stat comparisons at normal weapon/spell speed."
+    },
+    "Void Rift": {
+      "name": "Void Rift",
+      "version": "Ocellus phase 3; provisional stats",
+      "sourceNpcIds": [
+        16678
+      ],
+      "size": 1,
+      "speed": 6,
+      "skills": {
+        "hp": 44,
+        "atk": 1,
+        "str": 1,
+        "def": 175,
+        "ranged": 1,
+        "magic": 300
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Void_Rift",
+        "checkedAt": "2026-10-21T13:55:26.831Z"
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
+        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+      ],
+      "encounterNote": "The empowerment obtained on killing a rift is not simulated."
+    },
+    "Void Siphon": {
+      "name": "Void Siphon",
+      "version": "Ocellus phase 3; provisional stats",
+      "sourceNpcIds": [
+        16679
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 44,
+        "atk": 1,
+        "str": 1,
+        "def": 175,
+        "ranged": 1,
+        "magic": 300
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 50,
+        "slash": 50,
+        "crush": 50,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+      ],
+      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+    },
+    "Void Augmenter": {
+      "name": "Void Augmenter",
+      "version": "Ocellus phase 3 blue crystal; provisional stats",
+      "sourceNpcIds": [
+        16680
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 44,
+        "atk": 1,
+        "str": 1,
+        "def": 175,
+        "ranged": 1,
+        "magic": 300
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 5,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Void_Augmenter",
+        "checkedAt": "2026-10-21T13:55:26.831Z"
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
+        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+      ],
+      "encounterNote": "Blue crystal: 44 HP, 175 Defence and 300 Magic are Wiki-confirmed. Defence bonuses are provisional screenshot values; ranged bonuses are still unknown."
+    },
+    "Void Vine": {
+      "name": "Void Vine",
+      "version": "Ocellus phase 3; provisional stats",
+      "sourceNpcIds": [
+        16681
+      ],
+      "size": 1,
+      "speed": 0,
+      "skills": {
+        "hp": 44,
+        "atk": 1,
+        "str": 1,
+        "def": 1,
+        "ranged": 1,
+        "magic": 1
+      },
+      "offensive": {
+        "atk": null,
+        "str": null,
+        "magic": null,
+        "magic_str": null,
+        "ranged": null,
+        "ranged_str": null
+      },
+      "defensive": {
+        "stab": 0,
+        "slash": 0,
+        "crush": 0,
+        "magic": 0,
+        "light": null,
+        "standard": null,
+        "heavy": null,
+        "flat_armour": null
+      },
+      "attributes": [],
+      "weakness": null,
+      "immunities": {
+        "burn": null
+      },
+      "source": {
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Void_Vine",
+        "checkedAt": "2026-10-21T13:55:26.831Z"
+      },
+      "status": {
+        "profile": "provisional screenshot",
+        "defensive.light": "unpublished",
+        "defensive.standard": "unpublished",
+        "defensive.heavy": "unpublished",
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki"
+      },
+      "notes": [
+        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
+        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+      ],
+      "encounterNote": "Only a teammate can free the trapped player by attacking the vine. The calculator does not model who can attack."
     }
   },
   "aliases": {
@@ -1209,6 +1944,14 @@
       "https://oldschool.runescape.wiki/w/Demon_(attribute)",
       "https://oldschool.runescape.wiki/w/Undead_(attribute)",
       "https://oldschool.runescape.wiki/w/The_Fractured_Archive/Strategies"
+    ]
+  },
+  "addReview": {
+    "checkedAt": "2026-10-21T13:55:26.831Z",
+    "count": 13,
+    "notes": [
+      "All 13 remaining add/object rows in the supplied NPC table are now included. Names are qualified where needed to avoid confusing raid adds with ordinary monsters.",
+      "No demon or undead attributes inferred from names or appearance. Ranged calculations remain blocked while bonuses are unpublished."
     ]
   }
 }

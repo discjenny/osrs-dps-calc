@@ -10,6 +10,7 @@ type RaidProfile = {
   weakness: Monster['weakness']; immunities: { burn: string | null };
   notes: string[]; source: { url?: string; timestamp?: string };
   demonbaneVulnerability?: number;
+  encounterNote?: string;
   attributeSource?: { url: string; checkedAt: string };
 };
 

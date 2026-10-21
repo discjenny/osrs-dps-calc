@@ -33,6 +33,7 @@ const RaidPreviewNotice = observer(() => {
           <a href={raid.attributeSource?.url} target="_blank" rel="noreferrer">Wiki source</a>
         </p>
       )}
+      {raid?.encounterNote && <p className="mt-1">{raid.encounterNote}</p>}
       {blockers.map((p, i) => (
         // eslint-disable-next-line react/no-array-index-key
         <p key={i} className="mt-1 text-red-700 dark:text-red-200">

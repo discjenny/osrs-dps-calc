@@ -11,7 +11,7 @@ function gear(ids: Record<string, number>): Partial<PlayerEquipment> {
 }
 
 test('raid targets preserve P3 ranged bonuses and separate Bork states', () => {
-  expect(getRaidMonsters()).toHaveLength(17);
+  expect(getRaidMonsters()).toHaveLength(30);
   const p3 = getTestMonster('Ocellus phase 3');
   expect(p3.skills.def).toBe(250);
   expect(p3.defensive).toMatchObject({
@@ -70,4 +70,36 @@ test('new unsupported effects are searchable but do not produce misleading DPS',
   const p = getTestPlayer(m);
   p.equipment.weapon = { ...findEquipmentById(13263), name: 'Obligator' };
   expect(calculationBlocker(p, m)).toMatch(/not implemented/);
+});
+
+test('raid adds are distinct from ordinary monsters and preserve screenshot stats', () => {
+  const adds = getRaidMonsters().filter((m) => m.version?.includes('provisional stats'));
+  expect(adds.map((m) => m.id)).toEqual([
+    16662, 16649, 16650, 16651, 16653, 16666, 16670, 16687, 16688,
+    16678, 16679, 16680, 16681,
+  ]);
+  const crystal = getTestMonster('Void Augmenter');
+  expect(crystal.skills).toMatchObject({ hp: 44, def: 175, magic: 300 });
+  expect(crystal.defensive).toMatchObject({
+    stab: 0, slash: 0, crush: 0, magic: 5,
+  });
+  expect(crystal.size).toBe(1);
+  expect(getTestMonster('Jelly (Fractured Archive)').defensive).toMatchObject({
+    stab: 4, slash: 5, crush: 0, magic: 15,
+  });
+  expect(getTestMonster('Corpse (Xarth, doused)').defensive).toMatchObject({ stab: -20, slash: -20, crush: -20 });
+  expect(getTestMonster('Inert Guardian').defensive).toMatchObject({ crush: -20, magic: -20 });
+});
+
+test('provisional adds allow raw melee/magic while blocking unknown ranged bonuses', () => {
+  for (const add of getRaidMonsters().filter((m) => m.version?.includes('provisional stats'))) {
+    const m = getTestMonster(add.name);
+    const p = getTestPlayer(m, { style: { name: 'Pound', type: 'crush', stance: 'Aggressive' } });
+    expect(calculationBlocker(p, m)).toBeUndefined();
+    p.style.type = 'magic';
+    expect(calculationBlocker(p, m)).toBeUndefined();
+    p.style.type = 'ranged';
+    expect(calculationBlocker(p, m)).toMatch(/Unpublished NPC defence bonuses/);
+    expect(m.attributes).toEqual([]);
+  }
 });

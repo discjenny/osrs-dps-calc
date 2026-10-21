@@ -42,7 +42,7 @@ that path with `python scripts/serve-preview.py --base-path /osrs-dps-web`.
 ## Data and supported mechanics
 
 Equipment and aliases are copied snapshots from 20 October 2026 (5,462 items).
-The 17 scoped raid phase profiles are in `cdn/json/raid-profiles.json` with source
+The 30 scoped raid boss/add profiles are in `cdn/json/raid-profiles.json` with source
 revisions and per-field publication status. Other NPCs retain upstream data.
 No automatic refresh is enabled: review upstream engine and data changes together.
 
