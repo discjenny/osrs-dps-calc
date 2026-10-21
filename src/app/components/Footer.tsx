@@ -25,14 +25,14 @@ const Footer: React.FC = observer(() => {
           </div>
           <a
             className="flex border rounded-full p-0.5 border-gray-400"
-            href="https://github.com/weirdgloop/osrs-dps-calc"
+            href={process.env.SOURCE_REPOSITORY}
             target="_blank"
             aria-label="Visit the GitHub repo"
           >
             <IconBrandGithub size={15} />
           </a>
           {process.env.GIT_SHA && (
-            <a href={`https://github.com/weirdgloop/osrs-dps-calc/tree/${process.env.GIT_SHA}`} target="_blank">
+            <a href={`${process.env.SOURCE_REPOSITORY}/tree/${process.env.GIT_SHA}`} target="_blank">
               {`${process.env.GIT_SHA_SHORT}${process.env.GIT_DIRTY === 'true' ? '*' : ''}`}
             </a>
           )}

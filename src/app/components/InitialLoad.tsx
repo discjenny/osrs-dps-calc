@@ -18,12 +18,24 @@ const InitialLoad: React.FC = observer(() => {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
+    const loadChangedHash = () => {
+      const id = new URLSearchParams(window.location.hash.slice(1)).get('loadout');
+      if (!loaded || !id) return;
+      store.loadShortlink(id).then(() => {
+        window.history.replaceState({}, '', window.location.pathname);
+      }).catch(() => {});
+    };
+    window.addEventListener('hashchange', loadChangedHash);
+    return () => window.removeEventListener('hashchange', loadChangedHash);
+  }, [loaded, store]);
+
+  useEffect(() => {
     const doFirstLoad = async () => {
-      const id = searchParams.get('id');
+      const id = new URLSearchParams(window.location.hash.slice(1)).get('loadout');
       if (id) {
         // If there was a share ID provided, load the data for it into the calculator
         await store.loadShortlink(id);
-        window.history.replaceState({}, '', process.env.NEXT_PUBLIC_BASE_PATH);
+        window.history.replaceState({}, '', window.location.pathname);
 
         if (process.env.NEXT_PUBLIC_LOCAL_STORE_SHORTLINKS) {
           store.startStorageUpdater();
