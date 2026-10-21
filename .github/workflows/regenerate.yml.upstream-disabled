@@ -1,0 +1,46 @@
+name: Regenerate JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 13 * * 3'
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+env:
+  GH_TOKEN: ${{ secrets.CDN_REFRESH_TOKEN }}
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version-file: 'scripts/.python-version'
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+      - name: Run update scripts
+        run: |
+          cd scripts
+          uv run generateEquipment.py
+          uv run generateEquipmentAliases.py
+          uv run generateMonsters.py
+      - name: Push changes to branch
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git switch -C regenerate-json
+          git add .
+          git commit -m "[automated] Update JSON files"
+          git push --set-upstream origin regenerate-json --force
+      - name: Create pull request
+        continue-on-error: true
+        run: |
+          gh pr create -B main -f
