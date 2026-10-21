@@ -488,7 +488,8 @@ class GlobalState implements State {
     if (data.monster) {
       let newMonster: PartialDeep<Monster> = {};
 
-      if (data.monster.id > -1) {
+      // Only -1 is a custom monster; raid profiles also use stable negative IDs.
+      if (data.monster.id !== -1) {
         const monstersById = getMonsters().filter((m) => m.id === data.monster.id);
         if ((monstersById?.length || 0) === 0) {
           throw new Error(`Failed to find monster by id '${data.monster.id}' from shortlink`);

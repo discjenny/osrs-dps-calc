@@ -2,6 +2,7 @@ import { expect, test } from '@jest/globals';
 import { MonsterAttribute } from '@/enums/MonsterAttribute';
 import { getRaidMonsters } from '@/lib/RaidSupport';
 import PlayerVsNPCCalc from '@/lib/PlayerVsNPCCalc';
+import { GlobalState } from '@/state';
 import {
   findEquipment, findSpell, getTestMonster, getTestPlayer,
 } from '@/tests/utils/TestUtils';
@@ -12,6 +13,23 @@ const demons: [string, number][] = [
   ['Ocellus phase 1', 80],
   ['Ocellus phase 3', 80],
 ];
+
+test('saved raid targets refresh published stats while retaining defence-drain inputs', () => {
+  const store = new GlobalState();
+  const stale = getTestMonster('Xarth');
+  stale.defensive.stab = 0;
+  stale.inputs.defenceReductions.dwh = 2;
+  store.updateImportedData({
+    serializationVersion: 10, loadouts: [], selectedLoadout: 0, monster: stale,
+  });
+  expect(store.monster.defensive.stab).toBe(115);
+  expect(store.monster.inputs.defenceReductions.dwh).toBe(2);
+  store.updateImportedData({
+    serializationVersion: 10, loadouts: [], selectedLoadout: 0,
+    monster: { ...stale, id: -1 },
+  });
+  expect(store.monster.defensive.stab).toBe(0);
+});
 
 test('raid attributes contain only supported values, with no scraped template fragments', () => {
   for (const monster of getRaidMonsters()) {
