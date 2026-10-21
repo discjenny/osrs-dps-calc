@@ -27,10 +27,10 @@ describe('melee', () => {
 });
 
 describe('ranged', () => {
-  test('L1 accuracy', () => testScenario('ranged', 1, findEquipment('Bow of Faerdhinen'), 'maxAttackRoll', 2304));
-  test('L1 max hit', () => testScenario('ranged', 1, findEquipment('Bow of Faerdhinen'), 'maxHit', 3));
-  test('L99 accuracy', () => testScenario('ranged', 99, findEquipment('Bow of Faerdhinen'), 'maxAttackRoll', 21120));
-  test('L99 max hit', () => testScenario('ranged', 99, findEquipment('Bow of Faerdhinen'), 'maxHit', 29));
+  test('L1 accuracy', () => testScenario('ranged', 1, findEquipment('Bow of Faerdhinen', 'Charged'), 'maxAttackRoll', 2304));
+  test('L1 max hit', () => testScenario('ranged', 1, findEquipment('Bow of Faerdhinen', 'Charged'), 'maxHit', 3));
+  test('L99 accuracy', () => testScenario('ranged', 99, findEquipment('Bow of Faerdhinen', 'Charged'), 'maxAttackRoll', 21120));
+  test('L99 max hit', () => testScenario('ranged', 99, findEquipment('Bow of Faerdhinen', 'Charged'), 'maxHit', 29));
 });
 
 describe('magic', () => {
