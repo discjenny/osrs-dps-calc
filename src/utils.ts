@@ -28,6 +28,7 @@ import { EquipmentCategory } from '@/enums/EquipmentCategory';
 import { PlayerCombatStyle } from '@/types/PlayerCombatStyle';
 import { PartialDeep } from 'type-fest';
 import merge from 'lodash.mergewith';
+import { encodeShare, decodeShare } from '@/lib/StaticShare';
 
 /**
  * Can be reused in a number of locations where we partially support a feature
@@ -59,7 +60,6 @@ export enum FeatureStatus {
 
 export const classNames = (...classes: string[]) => classes.filter(Boolean).join(' ');
 
-const SHORTLINK_API = 'https://tools.runescape.wiki/osrs-dps/shortlink';
 const API_PROXY = 'https://oldschool.runescape.wiki/cors';
 
 export const WORKER_JSON_REPLACER = (k: string, v: Map<unknown, unknown> | Set<unknown> | never) => {
@@ -116,21 +116,9 @@ export const fetchPlayerSkills = async (username: string) => {
   };
 };
 
-export const fetchShortlinkData = async (linkId: string): Promise<ImportableData> => {
-  const res = await axios.get<string>(`${SHORTLINK_API}?id=${linkId}`);
-  // dumb and inefficient but axios already converts valid JSON to a JS object
-  return (JSON.parse(JSON.stringify(res.data), WORKER_JSON_REVIVER)).data as ImportableData;
-};
+export const fetchShortlinkData = async (linkId: string): Promise<ImportableData> => decodeShare(linkId);
 
-export const generateShortlink = async (data: ImportableData): Promise<string> => {
-  const payload = JSON.stringify(data, WORKER_JSON_REPLACER);
-  const res = await axios.post(SHORTLINK_API, payload, {
-    headers: {
-      'Content-Type': 'application/json',
-    },
-  });
-  return res.data.data;
-};
+export const generateShortlink = async (data: ImportableData): Promise<string> => encodeShare(data);
 
 // for type narrowing
 export function isDefined<T>(id: T | undefined | null): id is T {
@@ -155,7 +143,7 @@ export const calculateCombatLevel = (s: PlayerSkills) => {
 
 export const getWikiImage = (filename: string) => `https://oldschool.runescape.wiki/images/${filename.replaceAll(' ', '_')}?11111`;
 
-export const getCdnImage = (filename: string) => `https://tools.runescape.wiki/osrs-dps/cdn/${filename}`;
+export const getCdnImage = (filename: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/cdn/${filename}`;
 
 export const isDevServer = () => process.env.NODE_ENV === 'development';
 
