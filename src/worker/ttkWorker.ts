@@ -5,6 +5,7 @@ import {
 import { PlayerVsNPCCalculatedLoadout } from '@/types/State';
 import PlayerVsNPCCalc from '@/lib/PlayerVsNPCCalc';
 import { WORKER_JSON_REPLACER, WORKER_JSON_REVIVER } from '@/utils';
+import { calculationBlocker } from '@/lib/RaidSupport';
 
 // eslint-disable-next-line import/prefer-default-export
 export const ttkDist: Handler<WorkerRequestType.COMPUTE_TTK> = async (data) => {
@@ -12,6 +13,10 @@ export const ttkDist: Handler<WorkerRequestType.COMPUTE_TTK> = async (data) => {
 
   const res: Pick<PlayerVsNPCCalculatedLoadout, 'ttkDist'>[] = [];
   for (const [i, p] of loadouts.entries()) {
+    if (calculationBlocker(p, monster)) {
+      res.push({});
+      continue;
+    }
     const loadoutName = p.name || (i + 1).toString();
     const start = self.performance.now();
     const calc = new PlayerVsNPCCalc(p, monster, {

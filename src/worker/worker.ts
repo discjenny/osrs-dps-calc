@@ -10,11 +10,13 @@ import {
 import { NPCVsPlayerCalculatedLoadout, PlayerVsNPCCalculatedLoadout } from '@/types/State';
 import NPCVsPlayerCalc from '@/lib/NPCVsPlayerCalc';
 import PlayerVsNPCCalc from '@/lib/PlayerVsNPCCalc';
-import Comparator from '@/lib/Comparator';
+import Comparator, { CompareYAxis } from '@/lib/Comparator';
 import { ttkDist } from '@/worker/ttkWorker';
 import { range } from 'd3-array';
 import { DeferredPromise, WORKER_JSON_REPLACER, WORKER_JSON_REVIVER } from '@/utils';
 import { NUMBER_OF_LOADOUTS } from '@/lib/constants';
+import { calculationBlocker, getRaidProfile } from '@/lib/RaidSupport';
+import UserIssueType from '@/enums/UserIssueType';
 
 const computePvMValues: Handler<WorkerRequestType.COMPUTE_BASIC> = async (data) => {
   const { loadouts, monster, calcOpts } = data;
@@ -24,6 +26,12 @@ const computePvMValues: Handler<WorkerRequestType.COMPUTE_BASIC> = async (data) 
   for (const [i, p] of loadouts.entries()) {
     const loadoutName = (i + 1).toString();
     const start = self.performance.now();
+
+    const blocked = calculationBlocker(p, monster);
+    if (blocked) {
+      res.push({ userIssues: [{ type: UserIssueType.MONSTER_UNIQUE_EFFECTS, message: blocked, loadout: loadoutName }] });
+      continue;
+    }
 
     const calc = new PlayerVsNPCCalc(p, monster, {
       loadoutName,
@@ -62,6 +70,7 @@ const computePvMValues: Handler<WorkerRequestType.COMPUTE_BASIC> = async (data) 
 
 const computeMvPValues: Handler<WorkerRequestType.COMPUTE_REVERSE> = async (data) => {
   const { loadouts, monster, calcOpts } = data;
+  if (getRaidProfile(monster)) return loadouts.map(() => ({}));
   const res: NPCVsPlayerCalculatedLoadout[] = [];
 
   for (const [i, p] of loadouts.entries()) {
@@ -91,6 +100,10 @@ const computeMvPValues: Handler<WorkerRequestType.COMPUTE_REVERSE> = async (data
 
 const compare: Handler<WorkerRequestType.COMPARE> = async (data) => {
   const { axes, loadouts, monster } = data;
+  if (loadouts.some((p) => calculationBlocker(p, monster))
+    || (getRaidProfile(monster) && [CompareYAxis.MONSTER_DPS, CompareYAxis.DAMAGE_TAKEN].includes(axes.y))) {
+    return { entries: [], annotations: { x: [], y: [] }, domainMax: 0 };
+  }
   const comparator = new Comparator(loadouts, monster, axes.x, axes.y);
 
   const [entries, domainMax] = comparator.getEntries();
