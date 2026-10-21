@@ -18,6 +18,7 @@ import DebugPanels from '@/app/components/results/DebugPanels';
 import { IconAlertTriangle } from '@tabler/icons-react';
 import NPCVersusPlayerResultsContainer from '@/app/components/results/NPCVersusPlayerResultsContainer';
 import { CalcProvider, useCalc } from '@/worker/CalcWorker';
+import RaidPreviewNotice from '@/app/components/RaidPreviewNotice';
 
 const Home: NextPage = observer(() => {
   const calc = useCalc();
@@ -97,6 +98,7 @@ const Home: NextPage = observer(() => {
 
   return (
     <div>
+      <RaidPreviewNotice />
       {store.prefs.manualMode && (
         <button
           type="button"

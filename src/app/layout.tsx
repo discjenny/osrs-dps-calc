@@ -8,7 +8,7 @@ import ClientProviders from '@/app/components/ClientProviders';
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || ''),
-  title: 'DPS Calculator - OSRS Wiki',
+  title: 'OSRS DPS Calculator - Raid data preview',
   description: "See how your gear stacks up against Old School RuneScape's monsters using the OSRS Wiki's damage-per-second calculator.",
   authors: [{ name: 'OSRS Wiki', url: 'https://oldschool.runescape.wiki' }],
   keywords: ['osrs', 'old school runescape', 'runescape', 'dps calculator', 'osrs dps', 'osrs wiki', 'osrs wiki dps'],
