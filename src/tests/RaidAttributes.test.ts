@@ -25,7 +25,9 @@ test('saved raid targets refresh published stats while retaining defence-drain i
   expect(store.monster.defensive.stab).toBe(115);
   expect(store.monster.inputs.defenceReductions.dwh).toBe(2);
   store.updateImportedData({
-    serializationVersion: 10, loadouts: [], selectedLoadout: 0,
+    serializationVersion: 10,
+    loadouts: [],
+    selectedLoadout: 0,
     monster: { ...stale, id: -1 },
   });
   expect(store.monster.defensive.stab).toBe(0);

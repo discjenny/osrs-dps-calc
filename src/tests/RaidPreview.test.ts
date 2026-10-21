@@ -6,8 +6,8 @@ import { PlayerEquipment } from '@/types/Player';
 import { Prayer } from '@/enums/Prayer';
 import { scaleMonster } from '@/lib/MonsterScaling';
 
-function gear(ids: Record<string, number>): PlayerEquipment {
-  return Object.fromEntries(Object.entries(ids).map(([slot, id]) => [slot, findEquipmentById(id)])) as PlayerEquipment;
+function gear(ids: Record<string, number>): Partial<PlayerEquipment> {
+  return Object.fromEntries(Object.entries(ids).map(([slot, id]) => [slot, findEquipmentById(id)]));
 }
 
 test('raid targets preserve P3 ranged bonuses and separate Bork states', () => {
