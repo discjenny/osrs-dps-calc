@@ -9,6 +9,8 @@ type RaidProfile = {
   defensive: Record<string, number | null>; attributes: string[];
   weakness: Monster['weakness']; immunities: { burn: string | null };
   notes: string[]; source: { url?: string; timestamp?: string };
+  demonbaneVulnerability?: number;
+  attributeSource?: { url: string; checkedAt: string };
 };
 
 const rows = Object.values(profiles.bosses) as unknown as RaidProfile[];

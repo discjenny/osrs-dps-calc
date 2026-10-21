@@ -21,6 +21,7 @@ import { EquipmentCategory } from '@/enums/EquipmentCategory';
 import { getRangedDamageType } from '@/types/PlayerCombatStyle';
 import { AttackDistribution, HitDistribution } from '@/lib/HitDist';
 import { Spellement } from '@/types/Spell';
+import { getRaidProfile } from '@/lib/RaidSupport';
 
 export interface CalcOpts {
   loadoutName?: string,
@@ -725,7 +726,10 @@ export default class BaseCalc {
   protected demonbaneVulnerability(): number {
     if (this.monster.id === -1 && this.monster.inputs.demonbaneVulnerability !== undefined) {
       return this.monster.inputs.demonbaneVulnerability;
-    } if (this.monster.name === 'Duke Sucellus') {
+    }
+    const raidEffectiveness = getRaidProfile(this.monster)?.demonbaneVulnerability;
+    if (raidEffectiveness !== undefined) return raidEffectiveness;
+    if (this.monster.name === 'Duke Sucellus') {
       return 70;
     } if (YAMA_IDS.includes(this.monster.id)) {
       return 120;

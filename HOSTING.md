@@ -46,6 +46,13 @@ The 17 scoped raid phase profiles are in `cdn/json/raid-profiles.json` with sour
 revisions and per-field publication status. Other NPCs retain upstream data.
 No automatic refresh is enabled: review upstream engine and data changes together.
 
+The 21 October 2026 attribute review applies the Wiki's reduced demonbane
+effectiveness: Dreadnoth 25%, Xarth and Ocellus phases 1/3 80%. The rates scale
+weapon/spell bonuses through the original engine's rounding. Salve still requires
+a confirmed undead attribute; raid minion appearances are not treated as proof.
+The profile JSON records the review sources and the separately checked Xarth and
+Ezekiel stab defences (115 and 150).
+
 Items with unimplemented new mechanics and calculations needing unpublished NPC
 stats display an explanation rather than a DPS figure. Raid Defence drains are
 what-if scenarios: encounter restoration, floors and resets are unverified.

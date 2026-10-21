@@ -102,7 +102,7 @@
         "ranged_str": null
       },
       "defensive": {
-        "stab": null,
+        "stab": 150,
         "slash": 90,
         "crush": 35,
         "magic": 200,
@@ -111,9 +111,7 @@
         "heavy": 320,
         "flat_armour": null
       },
-      "attributes": [
-        "|xpbonus ="
-      ],
+      "attributes": [],
       "weakness": {
         "element": "earth",
         "severity": 25
@@ -139,7 +137,7 @@
         "offensive.magic_str": "unpublished",
         "offensive.ranged": "unpublished",
         "offensive.ranged_str": "unpublished",
-        "defensive.stab": "unpublished",
+        "defensive.stab": "wiki",
         "defensive.slash": "wiki",
         "defensive.crush": "wiki",
         "defensive.magic": "wiki",
@@ -151,7 +149,13 @@
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "fieldSources": {
+        "defensive.stab": {
+          "url": "https://oldschool.runescape.wiki/w/Ezekiel",
+          "checkedAt": "2026-10-21T13:45:22.557Z"
+        }
+      }
     },
     "Dreadnoth the Jellied": {
       "name": "Dreadnoth the Jellied",
@@ -188,7 +192,7 @@
         "flat_armour": null
       },
       "attributes": [
-        "|xpbonus ="
+        "demon"
       ],
       "weakness": {
         "element": "fire",
@@ -222,12 +226,19 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "attributes": "wiki",
+        "demonbaneVulnerability": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "demonbaneVulnerability": 25,
+      "attributeSource": {
+        "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
+        "checkedAt": "2026-10-21T13:45:22.557Z"
+      }
     },
     "Xarth": {
       "name": "Xarth",
@@ -252,7 +263,7 @@
         "ranged_str": null
       },
       "defensive": {
-        "stab": null,
+        "stab": 115,
         "slash": 105,
         "crush": 20,
         "magic": 205,
@@ -289,19 +300,32 @@
         "offensive.magic_str": "unpublished",
         "offensive.ranged": "unpublished",
         "offensive.ranged_str": "unpublished",
-        "defensive.stab": "unpublished",
+        "defensive.stab": "wiki",
         "defensive.slash": "wiki",
         "defensive.crush": "wiki",
         "defensive.magic": "wiki",
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "attributes": "wiki",
+        "demonbaneVulnerability": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "demonbaneVulnerability": 80,
+      "attributeSource": {
+        "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
+        "checkedAt": "2026-10-21T13:45:22.557Z"
+      },
+      "fieldSources": {
+        "defensive.stab": {
+          "url": "https://oldschool.runescape.wiki/w/Xarth",
+          "checkedAt": "2026-10-21T13:45:22.557Z"
+        }
+      }
     },
     "Bork": {
       "name": "Bork",
@@ -337,9 +361,7 @@
         "heavy": 5,
         "flat_armour": 12
       },
-      "attributes": [
-        "|xpbonus ="
-      ],
+      "attributes": [],
       "weakness": {
         "element": "earth",
         "severity": 40
@@ -487,9 +509,7 @@
         "heavy": 140,
         "flat_armour": null
       },
-      "attributes": [
-        "|xpbonus ="
-      ],
+      "attributes": [],
       "weakness": {
         "element": "|elementalweaknesspercent =",
         "severity": null
@@ -731,12 +751,19 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "attributes": "wiki",
+        "demonbaneVulnerability": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "demonbaneVulnerability": 80,
+      "attributeSource": {
+        "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
+        "checkedAt": "2026-10-21T13:45:22.557Z"
+      }
     },
     "Ocellus phase 2": {
       "name": "Ocellus phase 2",
@@ -874,12 +901,19 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished"
+        "defensive.flat_armour": "unpublished",
+        "attributes": "wiki",
+        "demonbaneVulnerability": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
         "No encounter downtime, phase damage multipliers or raid party scaling modeled."
-      ]
+      ],
+      "demonbaneVulnerability": 80,
+      "attributeSource": {
+        "url": "https://oldschool.runescape.wiki/w/Demon_(attribute)",
+        "checkedAt": "2026-10-21T13:45:22.557Z"
+      }
     },
     "Bork (stunned)": {
       "name": "Bork (stunned)",
@@ -915,9 +949,7 @@
         "heavy": 5,
         "flat_armour": 0
       },
-      "attributes": [
-        "|xpbonus ="
-      ],
+      "attributes": [],
       "weakness": {
         "element": "earth",
         "severity": 40
@@ -1165,5 +1197,18 @@
   "aliases": {
     "Archive Guardian": "Archive Guardian (shielded)",
     "Ocellus phases 2-3": "Ocellus phase 3"
+  },
+  "attributeReview": {
+    "checkedAt": "2026-10-21T13:45:22.557Z",
+    "notes": [
+      "Dreadnoth: demon, 25% demonbane effectiveness. Xarth and Ocellus phases 1 and 3: demon, 80% effectiveness.",
+      "Salve requires the undead attribute, not skeletal appearance. No confirmed Salve bonus was found for the scoped raid bosses or the raid corpses/Undead binder.",
+      "Ocellus phase 2 remains unconfirmed and blocked by missing HP. No demon/undead attribute inferred."
+    ],
+    "sources": [
+      "https://oldschool.runescape.wiki/w/Demon_(attribute)",
+      "https://oldschool.runescape.wiki/w/Undead_(attribute)",
+      "https://oldschool.runescape.wiki/w/The_Fractured_Archive/Strategies"
+    ]
   }
 }

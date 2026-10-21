@@ -55,7 +55,11 @@ test('browser engine reproduces the compact bludgeon swap', () => {
 test('unpublished stats cannot silently turn into a usable zero-defence target', () => {
   const m = getTestMonster('Ezekiel');
   const p = getTestPlayer(m, { style: { name: 'Lunge', type: 'stab', stance: 'Aggressive' } });
-  expect(calculationBlocker(p, m)).toMatch(/Unpublished NPC defence bonuses: stab/);
+  expect(m.defensive.stab).toBe(150);
+  expect(getTestMonster('Xarth').defensive.stab).toBe(115);
+  expect(calculationBlocker(p, m)).toBeUndefined();
+  p.style.type = 'ranged';
+  expect(calculationBlocker(p, getTestMonster('Archive Guardian (unshielded)'))).toMatch(/Unpublished NPC defence bonuses/);
   p.style.type = 'crush';
   expect(calculationBlocker(p, m)).toBeUndefined();
   expect(calculationBlocker(p, getTestMonster('Ocellus phase 2'))).toMatch(/Unpublished NPC levels: hp/);
