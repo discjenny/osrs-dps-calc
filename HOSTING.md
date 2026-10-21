@@ -2,16 +2,23 @@
 
 This folder is an independent clone of the original Wiki calculator. It does not
 import, call or edit Scry, the local DPS bridge, bank exports, or the original
-upstream checkout. There is no configured Git remote and nothing is published.
+upstream checkout.
+
+Repository: https://github.com/discjenny/osrs-dps-calc
+
+GitHub Pages URL: https://discjenny.github.io/osrs-dps-calc/
+
+The `origin` remote points only to this separate fork. The local `pages-live`
+branch tracks its `main` branch; the local `main` branch preserves the original
+prepared snapshot. Publish updates with the manual workflow below.
 
 ## GitHub Pages
 
-1. Create a **new public repository** for this folder, separate from Scry. Retain
-   the original LICENSE, attribution, and source files.
-2. Push this folder's source to that repository.
-3. In the repository's **Settings > Pages**, select **GitHub Actions** as the source.
-4. Run **Actions > Deploy raid preview to GitHub Pages > Run workflow**.
-5. The workflow reports the hosted URL. It detects the repository subpath or
+1. Commit reviewed changes to this fork's `main` branch. Retain the original
+   LICENSE, attribution, and source files.
+2. **Settings > Pages** already uses **GitHub Actions** as the source.
+3. Run **Actions > Deploy raid preview to GitHub Pages > Run workflow** on `main`.
+4. The workflow reports the hosted URL. It detects the repository subpath or
    custom domain through `configure-pages`; no hardcoded account name is needed.
 
 Deployment is manual. No scheduled scraper, upstream deployment credentials,
