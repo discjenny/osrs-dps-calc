@@ -1,10 +1,11 @@
 import { BurnImmunity, Monster } from '@/types/Monster';
 import { MonsterAttribute } from '@/enums/MonsterAttribute';
 import { isCombatStyleType } from '@/types/PlayerCombatStyle';
+import { getRaidMonsters } from '@/lib/RaidSupport';
 import monsters from '../../cdn/json/monsters.json';
 
 export function getMonsters(): Omit<Monster, 'inputs'>[] {
-  return monsters.map((m): Omit<Monster, 'inputs'> => {
+  return [...monsters.map((m): Omit<Monster, 'inputs'> => {
     const maxHit = parseInt(m.max_hit.toString());
     const styleStr = m.style?.join(',').toLowerCase() || null;
     return {
@@ -26,7 +27,7 @@ export function getMonsters(): Omit<Monster, 'inputs'>[] {
       },
       is_slayer_monster: m.is_slayer_monster || false,
     };
-  });
+  }), ...getRaidMonsters()];
 }
 
 export const INITIAL_MONSTER_INPUTS: Monster['inputs'] = {
