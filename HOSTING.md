@@ -46,6 +46,18 @@ The 30 scoped raid boss/add profiles are in `cdn/json/raid-profiles.json` with s
 revisions and per-field publication status. Other NPCs retain upstream data.
 No automatic refresh is enabled: review upstream engine and data changes together.
 
+The 22 October 2026 review refreshes Wiki revisions for bosses and adds. Grounded
+Guardian ranged stats and 40% fire weakness, Moia's 80% air weakness, Dagon'hai
+stats, Jelly/Corpse ranged stats and weaknesses, Jelly's demon attribute, and
+Undead binder corrections are included. Corpse water/ice spells use a 1-tick
+interval; dousing remains a manually selected target state. The Smorks use 2
+flat armour. Stunned Bork has guaranteed melee accuracy and zero armour.
+Normal Bork's physical armour is disputed (infobox 10 vs strategy 8), so physical
+DPS is blocked; the agreed 2-point magic resistance is applied. Guardian Magic
+drains are blocked pending a confirmed absorption formula. Unknown crystal/add
+ranged defences remain blocked. Source revisions and limitations accompany the
+profiles. This review does not refresh the equipment snapshot or Scry.
+
 The 21 October 2026 attribute review applies the Wiki's reduced demonbane
 effectiveness: Dreadnoth 25%, Xarth and Ocellus phases 1/3 80%. The rates scale
 weapon/spell bonuses through the original engine's rounding. Salve still requires

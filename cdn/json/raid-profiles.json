@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T17:13:36.308Z",
+  "checkedAt": "2026-10-22T18:54:11.122Z",
   "bosses": {
     "Archive Guardian (shielded)": {
       "name": "Archive Guardian (shielded)",
@@ -46,9 +46,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Archive_Guardian?oldid=15377761",
-        "revision": 15377761,
-        "timestamp": "2026-10-20T17:03:41Z"
+        "url": "https://oldschool.runescape.wiki/w/Archive_Guardian?oldid=15379433",
+        "revision": 15379433,
+        "timestamp": "2026-10-22T16:12:18Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -71,17 +71,23 @@
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki",
+        "attributes": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
-        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
+        "Wiki reports that Magic drains may be absorbed and raise Magic instead. Accursed sceptre / Seercull scenarios are blocked pending confirmation of the exact rule."
       ],
       "defenceFloorPercent": 60,
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
-      }
+      },
+      "magicDrainUnverified": true
     },
     "Ezekiel": {
       "name": "Ezekiel",
@@ -126,9 +132,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Ezekiel?oldid=15377642",
-        "revision": 15377642,
-        "timestamp": "2026-10-20T15:29:05Z"
+        "url": "https://oldschool.runescape.wiki/w/Ezekiel?oldid=15379529",
+        "revision": 15379529,
+        "timestamp": "2026-10-22T18:32:52Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -151,7 +157,10 @@
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -214,9 +223,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Dreadnoth_the_Jellied?oldid=15377524",
-        "revision": 15377524,
-        "timestamp": "2026-10-20T14:26:22Z"
+        "url": "https://oldschool.runescape.wiki/w/Dreadnoth_the_Jellied?oldid=15378912",
+        "revision": 15378912,
+        "timestamp": "2026-10-21T22:54:12Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -241,7 +250,10 @@
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
         "demonbaneVulnerability": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -261,7 +273,9 @@
     "Xarth": {
       "name": "Xarth",
       "version": "",
-      "sourceNpcIds": [],
+      "sourceNpcIds": [
+        16684
+      ],
       "size": 3,
       "speed": null,
       "skills": {
@@ -273,11 +287,11 @@
         "ranged": 220
       },
       "offensive": {
-        "atk": null,
-        "str": null,
+        "atk": 150,
+        "str": 225,
         "magic": 250,
-        "magic_str": null,
-        "ranged": null,
+        "magic_str": 350,
+        "ranged": 250,
         "ranged_str": null
       },
       "defensive": {
@@ -301,9 +315,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Xarth?oldid=15377519",
-        "revision": 15377519,
-        "timestamp": "2026-10-20T14:25:24Z"
+        "url": "https://oldschool.runescape.wiki/w/Xarth?oldid=15379432",
+        "revision": 15379432,
+        "timestamp": "2026-10-22T16:12:01Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -312,11 +326,11 @@
         "skills.def": "wiki",
         "skills.magic": "wiki",
         "skills.ranged": "wiki",
-        "offensive.atk": "unpublished",
-        "offensive.str": "unpublished",
+        "offensive.atk": "wiki",
+        "offensive.str": "wiki",
         "offensive.magic": "wiki",
-        "offensive.magic_str": "unpublished",
-        "offensive.ranged": "unpublished",
+        "offensive.magic_str": "wiki",
+        "offensive.ranged": "wiki",
         "offensive.ranged_str": "unpublished",
         "defensive.stab": "wiki",
         "defensive.slash": "wiki",
@@ -328,7 +342,9 @@
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
         "demonbaneVulnerability": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -350,7 +366,8 @@
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
       },
-      "encounterNote": "Jagex confirms melee is intended for the final phase. Raw DPS does not model positioning, hazards or time spent unable to attack."
+      "encounterNote": "Jagex confirms melee is intended for the final phase. Raw DPS does not model positioning, hazards or time spent unable to attack.",
+      "calculatorId": -20003
     },
     "Bork": {
       "name": "Bork",
@@ -379,12 +396,12 @@
       "defensive": {
         "stab": 140,
         "slash": 130,
-        "crush": 10,
+        "crush": 20,
         "magic": 300,
         "light": 80,
         "standard": 50,
         "heavy": 5,
-        "flat_armour": 12
+        "flat_armour": null
       },
       "attributes": [],
       "weakness": {
@@ -395,9 +412,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15377670",
-        "revision": 15377670,
-        "timestamp": "2026-10-20T15:46:13Z"
+        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15379322",
+        "revision": 15379322,
+        "timestamp": "2026-10-22T13:19:56Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -419,17 +436,27 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defensive.flat_armour": "conflicting wiki sources",
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
-        "Wiki lists flat armour 12 normally and 0 when stunned."
+        "Wiki Bork infobox lists 10 base flat armour; the strategy page lists 8. Normal melee/ranged calculations are blocked until this conflict is resolved. Both pages list 2 magic resistance, applied to magic hits.",
+        "No encounter downtime or raid party scaling modeled."
       ],
       "defenceFloorPercent": 60,
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
+      },
+      "flatArmourUnverified": true,
+      "magicResistance": 2,
+      "encounterNote": "Normal physical armour is disputed (8 vs 10); physical DPS is unavailable. Magic uses the agreed 2-point damage reduction. Select Bork (stunned) for zero armour and guaranteed melee accuracy.",
+      "mechanicSource": {
+        "url": "https://oldschool.runescape.wiki/w/The_Fractured_Archive/Strategies?oldid=15379549",
+        "checkedAt": "2026-10-22T18:54:11.122Z"
       }
     },
     "The Smorks": {
@@ -464,7 +491,7 @@
         "light": 80,
         "standard": 150,
         "heavy": 80,
-        "flat_armour": null
+        "flat_armour": 2
       },
       "attributes": [],
       "weakness": {
@@ -475,9 +502,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/The_Smorks?oldid=15377529",
-        "revision": 15377529,
-        "timestamp": "2026-10-20T14:27:12Z"
+        "url": "https://oldschool.runescape.wiki/w/The_Smorks?oldid=15379083",
+        "revision": 15379083,
+        "timestamp": "2026-10-22T04:10:11Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -499,12 +526,15 @@
         "defensive.light": "wiki",
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
-        "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defensive.flat_armour": "wiki",
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "Flat armour not published; raw DPS assumes 0.",
-        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
+        "Published flat armour: 2; applied to non-magic hits.",
+        "No encounter downtime or raid party scaling modeled."
       ],
       "defenceFloorPercent": 0,
       "defenceReductionSource": {
@@ -533,7 +563,7 @@
         "str": null,
         "magic": 300,
         "magic_str": null,
-        "ranged": null,
+        "ranged": 350,
         "ranged_str": 35
       },
       "defensive": {
@@ -548,16 +578,16 @@
       },
       "attributes": [],
       "weakness": {
-        "element": "|elementalweaknesspercent =",
-        "severity": null
+        "element": "air",
+        "severity": 80
       },
       "immunities": {
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Moia?oldid=15377574",
-        "revision": 15377574,
-        "timestamp": "2026-10-20T14:49:29Z"
+        "url": "https://oldschool.runescape.wiki/w/Moia?oldid=15378801",
+        "revision": 15378801,
+        "timestamp": "2026-10-21T19:26:10Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -570,7 +600,7 @@
         "offensive.str": "unpublished",
         "offensive.magic": "wiki",
         "offensive.magic_str": "unpublished",
-        "offensive.ranged": "unpublished",
+        "offensive.ranged": "wiki",
         "offensive.ranged_str": "wiki",
         "defensive.stab": "wiki",
         "defensive.slash": "wiki",
@@ -580,7 +610,10 @@
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -595,33 +628,36 @@
     "Dagon'hai Elder": {
       "name": "Dagon'hai Elder",
       "version": "",
-      "sourceNpcIds": [],
+      "sourceNpcIds": [
+        16643,
+        16644
+      ],
       "size": 2,
       "speed": null,
       "skills": {
-        "hp": null,
-        "atk": null,
-        "str": null,
-        "def": null,
-        "magic": null,
-        "ranged": null
+        "hp": 640,
+        "atk": 1,
+        "str": 1,
+        "def": 100,
+        "magic": 290,
+        "ranged": 260
       },
       "offensive": {
         "atk": null,
-        "str": null,
-        "magic": null,
+        "str": 1,
+        "magic": 1,
         "magic_str": null,
         "ranged": null,
-        "ranged_str": null
+        "ranged_str": 180
       },
       "defensive": {
-        "stab": null,
-        "slash": null,
-        "crush": null,
-        "magic": null,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "stab": 50,
+        "slash": 50,
+        "crush": 50,
+        "magic": 100,
+        "light": 80,
+        "standard": 80,
+        "heavy": 80,
         "flat_armour": null
       },
       "attributes": [],
@@ -630,32 +666,33 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Elder?oldid=15377555",
-        "revision": 15377555,
-        "timestamp": "2026-10-20T14:36:18Z"
+        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Elder?oldid=15378835",
+        "revision": 15378835,
+        "timestamp": "2026-10-21T20:32:34Z"
       },
       "status": {
-        "skills.hp": "unpublished",
-        "skills.atk": "unpublished",
-        "skills.str": "unpublished",
-        "skills.def": "unpublished",
-        "skills.magic": "unpublished",
-        "skills.ranged": "unpublished",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
         "offensive.atk": "unpublished",
-        "offensive.str": "unpublished",
-        "offensive.magic": "unpublished",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
         "offensive.magic_str": "unpublished",
         "offensive.ranged": "unpublished",
-        "offensive.ranged_str": "unpublished",
-        "defensive.stab": "unpublished",
-        "defensive.slash": "unpublished",
-        "defensive.crush": "unpublished",
-        "defensive.magic": "unpublished",
-        "defensive.light": "unpublished",
-        "defensive.standard": "unpublished",
-        "defensive.heavy": "unpublished",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -665,38 +702,44 @@
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
-      }
+      },
+      "calculatorId": -20007
     },
     "Dagon'hai Monk": {
       "name": "Dagon'hai Monk",
       "version": "",
-      "sourceNpcIds": [],
+      "sourceNpcIds": [
+        16645,
+        16646,
+        16647,
+        16648
+      ],
       "size": 2,
-      "speed": null,
+      "speed": 6,
       "skills": {
-        "hp": null,
-        "atk": null,
-        "str": null,
-        "def": null,
-        "magic": null,
-        "ranged": null
+        "hp": 640,
+        "atk": 1,
+        "str": 1,
+        "def": 100,
+        "magic": 290,
+        "ranged": 260
       },
       "offensive": {
         "atk": null,
-        "str": null,
-        "magic": null,
+        "str": 1,
+        "magic": 1,
         "magic_str": null,
         "ranged": null,
-        "ranged_str": null
+        "ranged_str": 180
       },
       "defensive": {
-        "stab": null,
-        "slash": null,
-        "crush": null,
-        "magic": null,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "stab": 50,
+        "slash": 50,
+        "crush": 50,
+        "magic": 100,
+        "light": 80,
+        "standard": 80,
+        "heavy": 80,
         "flat_armour": null
       },
       "attributes": [],
@@ -705,32 +748,34 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Monk?oldid=15377578",
-        "revision": 15377578,
-        "timestamp": "2026-10-20T14:51:07Z"
+        "url": "https://oldschool.runescape.wiki/w/Dagon'hai_Monk?oldid=15378836",
+        "revision": 15378836,
+        "timestamp": "2026-10-21T20:32:49Z"
       },
       "status": {
-        "skills.hp": "unpublished",
-        "skills.atk": "unpublished",
-        "skills.str": "unpublished",
-        "skills.def": "unpublished",
-        "skills.magic": "unpublished",
-        "skills.ranged": "unpublished",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
         "offensive.atk": "unpublished",
-        "offensive.str": "unpublished",
-        "offensive.magic": "unpublished",
+        "offensive.str": "wiki",
+        "offensive.magic": "wiki",
         "offensive.magic_str": "unpublished",
         "offensive.ranged": "unpublished",
-        "offensive.ranged_str": "unpublished",
-        "defensive.stab": "unpublished",
-        "defensive.slash": "unpublished",
-        "defensive.crush": "unpublished",
-        "defensive.magic": "unpublished",
-        "defensive.light": "unpublished",
-        "defensive.standard": "unpublished",
-        "defensive.heavy": "unpublished",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -740,14 +785,18 @@
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
-      }
+      },
+      "calculatorId": -20008
     },
     "Ocellus phase 1": {
       "name": "Ocellus phase 1",
       "version": "Phase 1",
-      "sourceNpcIds": [],
+      "sourceNpcIds": [
+        16673,
+        16674
+      ],
       "size": 3,
-      "speed": null,
+      "speed": 5,
       "skills": {
         "hp": 2500,
         "atk": 1,
@@ -782,9 +831,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
-        "revision": 15377734,
-        "timestamp": "2026-10-20T16:30:33Z"
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15379546",
+        "revision": 15379546,
+        "timestamp": "2026-10-22T18:45:53Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -809,7 +858,9 @@
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
         "demonbaneVulnerability": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -824,7 +875,8 @@
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
-      }
+      },
+      "calculatorId": -20009
     },
     "Ocellus phase 2": {
       "name": "Ocellus phase 2",
@@ -864,9 +916,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
-        "revision": 15377734,
-        "timestamp": "2026-10-20T16:30:33Z"
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15379546",
+        "revision": 15379546,
+        "timestamp": "2026-10-22T18:45:53Z"
       },
       "status": {
         "skills.hp": "unpublished",
@@ -889,7 +941,9 @@
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "unpublished",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -922,7 +976,7 @@
         "atk": 150,
         "str": 10,
         "magic": 350,
-        "magic_str": null,
+        "magic_str": 10,
         "ranged": 0,
         "ranged_str": 0
       },
@@ -944,9 +998,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15377734",
-        "revision": 15377734,
-        "timestamp": "2026-10-20T16:30:33Z"
+        "url": "https://oldschool.runescape.wiki/w/Ocellus?oldid=15379546",
+        "revision": 15379546,
+        "timestamp": "2026-10-22T18:45:53Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -958,7 +1012,7 @@
         "offensive.atk": "wiki",
         "offensive.str": "wiki",
         "offensive.magic": "wiki",
-        "offensive.magic_str": "unpublished",
+        "offensive.magic_str": "wiki",
         "offensive.ranged": "wiki",
         "offensive.ranged_str": "wiki",
         "defensive.stab": "wiki",
@@ -971,7 +1025,9 @@
         "defensive.flat_armour": "unpublished",
         "attributes": "wiki",
         "demonbaneVulnerability": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki"
       },
       "notes": [
         "Flat armour not published; raw DPS assumes 0.",
@@ -1016,7 +1072,7 @@
       "defensive": {
         "stab": 140,
         "slash": 130,
-        "crush": 10,
+        "crush": 20,
         "magic": 300,
         "light": 80,
         "standard": 50,
@@ -1032,9 +1088,9 @@
         "burn": null
       },
       "source": {
-        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15377670",
-        "revision": 15377670,
-        "timestamp": "2026-10-20T15:46:13Z"
+        "url": "https://oldschool.runescape.wiki/w/Bork?oldid=15379322",
+        "revision": 15379322,
+        "timestamp": "2026-10-22T13:19:56Z"
       },
       "status": {
         "skills.hp": "wiki",
@@ -1057,28 +1113,37 @@
         "defensive.standard": "wiki",
         "defensive.heavy": "wiki",
         "defensive.flat_armour": "wiki",
-        "defenceFloorPercent": "official hotfix"
+        "defenceFloorPercent": "official hotfix",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
-        "Wiki lists flat armour 12 normally and 0 when stunned."
+        "Wiki strategy: stun removes damage reduction and makes melee attacks successful hits. Crush defence is +20.",
+        "No encounter downtime or raid party scaling modeled."
       ],
       "defenceFloorPercent": 60,
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
+      },
+      "guaranteedMeleeAccuracy": true,
+      "encounterNote": "Stunned state: zero flat armour and guaranteed melee accuracy, as described by the Wiki strategy. Stun duration and uptime are not simulated.",
+      "mechanicSource": {
+        "url": "https://oldschool.runescape.wiki/w/The_Fractured_Archive/Strategies?oldid=15379549",
+        "checkedAt": "2026-10-22T18:54:11.122Z"
       }
     },
     "Archive Guardian (unshielded)": {
       "name": "Archive Guardian (unshielded)",
-      "version": "Provisional screenshot",
+      "version": "Grounded",
       "sourceNpcIds": [
         16660
       ],
       "size": 5,
       "speed": 5,
       "skills": {
-        "hp": 1100,
+        "hp": 550,
         "atk": 250,
         "str": 240,
         "def": 260,
@@ -1088,46 +1153,71 @@
       "offensive": {
         "atk": null,
         "str": null,
-        "magic": null,
-        "magic_str": null,
-        "ranged": null,
-        "ranged_str": null
+        "magic": 350,
+        "magic_str": 55,
+        "ranged": 350,
+        "ranged_str": 55
       },
       "defensive": {
         "stab": 120,
         "slash": 90,
         "crush": 20,
         "magic": 130,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "light": 50,
+        "standard": 115,
+        "heavy": 50,
         "flat_armour": null
       },
       "attributes": [],
       "weakness": {
         "element": "fire",
-        "severity": 80
+        "severity": 40
       },
       "immunities": {
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from user-supplied launch-day NPC table; not verified live game data. Ranged defences, attributes, flat armour, immunities and encounter restrictions are unknown. Guardian fire weakness is user-reported."
+        "url": "https://oldschool.runescape.wiki/w/Archive_Guardian?oldid=15379433",
+        "revision": 15379433,
+        "timestamp": "2026-10-22T16:12:18Z"
       },
       "status": {
-        "profile": "provisional screenshot",
-        "defenceFloorPercent": "official hotfix"
+        "profile": "wiki",
+        "defenceFloorPercent": "official hotfix",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "offensive.magic": "wiki",
+        "offensive.magic_str": "wiki",
+        "offensive.ranged": "wiki",
+        "offensive.ranged_str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki",
+        "attributes": "wiki"
       },
       "notes": [
-        "Phase-specific stats are not independently published. Ranged defence is unknown.",
-        "Flat armour assumed 0; no encounter scaling/modifiers.",
-        "Fire weakness copied from Guardian article; unshielded phase not independently verified."
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled.",
+        "Wiki reports that Magic drains may be absorbed and raise Magic instead. Accursed sceptre / Seercull scenarios are blocked pending confirmation of the exact rule."
       ],
       "defenceFloorPercent": 60,
       "defenceReductionSource": {
         "url": "https://secure.runescape.com/m=news/the-fractured-archive---out-today?oldschool=1",
         "checkedAt": "2026-10-21T15:01:00.083Z"
-      }
+      },
+      "encounterNote": "Grounded Guardian: 40% fire weakness; flying Guardian: 80%. Ancient Magicks are ineffective in both states.",
+      "magicDrainUnverified": true
     },
     "The Blade (Ocellus phase 2)": {
       "name": "The Blade (Ocellus phase 2)",
@@ -1337,7 +1427,8 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
+        "url": "https://oldschool.runescape.wiki/w/Inert_Guardian_(Wall)"
       },
       "status": {
         "profile": "provisional screenshot",
@@ -1350,7 +1441,7 @@
         "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
         "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
-      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+      "encounterNote": "Attackable wall guardian (battery/mushroom), not the inactive boss used to start the encounter. Stats remain provisional; the Wiki reports Monster Inspect cannot inspect this target."
     },
     "Cauldron (Fractured Archive)": {
       "name": "Cauldron (Fractured Archive)",
@@ -1409,7 +1500,7 @@
     },
     "Imp (Fractured Archive)": {
       "name": "Imp (Fractured Archive)",
-      "version": "Ezekiel add; provisional stats",
+      "version": "Dagon'hai add; provisional stats",
       "sourceNpcIds": [
         16650
       ],
@@ -1464,7 +1555,7 @@
     },
     "Demonic rift (Fractured Archive)": {
       "name": "Demonic rift (Fractured Archive)",
-      "version": "Ezekiel add; provisional stats",
+      "version": "Dagon'hai add; provisional stats",
       "sourceNpcIds": [
         16651
       ],
@@ -1574,14 +1665,14 @@
     },
     "Jelly (Fractured Archive)": {
       "name": "Jelly (Fractured Archive)",
-      "version": "Dreadnoth add; provisional stats",
+      "version": "Dreadnoth add",
       "sourceNpcIds": [
         16666
       ],
       "size": 1,
       "speed": 5,
       "skills": {
-        "hp": 75,
+        "hp": 61,
         "atk": 200,
         "str": 160,
         "def": 100,
@@ -1601,31 +1692,56 @@
         "slash": 5,
         "crush": 0,
         "magic": 15,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "light": -45,
+        "standard": 18,
+        "heavy": -50,
         "flat_armour": null
       },
-      "attributes": [],
-      "weakness": null,
+      "attributes": [
+        "demon"
+      ],
+      "weakness": {
+        "element": "fire",
+        "severity": 60
+      },
       "immunities": {
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+        "url": "https://oldschool.runescape.wiki/w/Jelly_(Dreadnoth)?oldid=15378998",
+        "revision": 15378998,
+        "timestamp": "2026-10-22T00:54:44Z"
       },
       "status": {
-        "profile": "provisional screenshot",
-        "defensive.light": "unpublished",
-        "defensive.standard": "unpublished",
-        "defensive.heavy": "unpublished",
-        "attributes": "unconfirmed"
+        "profile": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "attributes": "wiki",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "size": "wiki",
+        "speed": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
       ],
-      "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
+      "encounterNote": "Demon attribute and 60% fire weakness confirmed on the Wiki. Standard 100% demonbane effectiveness; Dreadnoth himself remains at 25%.",
+      "demonbaneVulnerability": 100,
+      "attributeSource": {
+        "url": "https://oldschool.runescape.wiki/w/Jelly_(Dreadnoth)?oldid=15378998",
+        "checkedAt": "2026-10-22T18:54:11.122Z"
+      }
     },
     "Undead binder": {
       "name": "Undead binder",
@@ -1634,27 +1750,27 @@
         16670
       ],
       "size": 1,
-      "speed": 0,
+      "speed": 5,
       "skills": {
         "hp": 95,
         "atk": 1,
         "str": 1,
-        "def": 170,
+        "def": 225,
         "ranged": 225,
-        "magic": 1
+        "magic": 50
       },
       "offensive": {
         "atk": null,
-        "str": null,
+        "str": 15,
         "magic": null,
         "magic_str": null,
         "ranged": null,
         "ranged_str": null
       },
       "defensive": {
-        "stab": 50,
-        "slash": 12,
-        "crush": 15,
+        "stab": 12,
+        "slash": 15,
+        "crush": 10,
         "magic": -20,
         "light": null,
         "standard": null,
@@ -1667,31 +1783,43 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+        "url": "https://oldschool.runescape.wiki/w/Undead_binder?oldid=15378720",
+        "revision": 15378720,
+        "timestamp": "2026-10-21T18:04:11Z"
       },
       "status": {
         "profile": "provisional screenshot",
         "defensive.light": "unpublished",
         "defensive.standard": "unpublished",
         "defensive.heavy": "unpublished",
-        "attributes": "unconfirmed"
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "offensive.str": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "size": "wiki",
+        "speed": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Fields marked wiki are verified against the linked revision; remaining screenshot values are provisional. Ranged defences and flat armour remain unpublished.",
         "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
       "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
     },
     "Corpse (Xarth)": {
       "name": "Corpse (Xarth)",
-      "version": "Normal; provisional stats",
+      "version": "Normal",
       "sourceNpcIds": [
         16687
       ],
       "size": 1,
       "speed": 0,
       "skills": {
-        "hp": 62,
+        "hp": 20,
         "atk": 50,
         "str": 40,
         "def": 100,
@@ -1711,44 +1839,60 @@
         "slash": 100,
         "crush": 100,
         "magic": 0,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "light": -20,
+        "standard": 80,
+        "heavy": 80,
         "flat_armour": null
       },
       "attributes": [],
-      "weakness": null,
+      "weakness": {
+        "element": "water",
+        "severity": 40
+      },
       "immunities": {
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
-        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)",
-        "checkedAt": "2026-10-21T13:55:26.831Z"
+        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)?oldid=15379470",
+        "revision": 15379470,
+        "timestamp": "2026-10-22T16:58:13Z"
       },
       "status": {
-        "profile": "provisional screenshot",
-        "defensive.light": "unpublished",
-        "defensive.standard": "unpublished",
-        "defensive.heavy": "unpublished",
-        "attributes": "unconfirmed"
+        "profile": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "size": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
       ],
-      "encounterNote": "Corpse spell-speed overrides, dousing transitions, extra corpse spawns and healing are not simulated. These are raw stat comparisons at normal weapon/spell speed."
+      "encounterNote": "Water and ice spells use the Wiki-reported 1-tick attack interval. Dousing is selected manually using the normal/doused target; extra corpse spawns from fire spells are not simulated. No undead attribute is confirmed.",
+      "corpseSpellSpeed": 1
     },
     "Corpse (Xarth, doused)": {
       "name": "Corpse (Xarth, doused)",
-      "version": "Doused; provisional stats",
+      "version": "Doused",
       "sourceNpcIds": [
         16688
       ],
       "size": 1,
       "speed": 0,
       "skills": {
-        "hp": 62,
+        "hp": 20,
         "atk": 50,
         "str": 40,
         "def": 100,
@@ -1768,33 +1912,49 @@
         "slash": -20,
         "crush": -20,
         "magic": 0,
-        "light": null,
-        "standard": null,
-        "heavy": null,
+        "light": -20,
+        "standard": 80,
+        "heavy": 80,
         "flat_armour": null
       },
       "attributes": [],
-      "weakness": null,
+      "weakness": {
+        "element": "fire",
+        "severity": 100
+      },
       "immunities": {
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
-        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)",
-        "checkedAt": "2026-10-21T13:55:26.831Z"
+        "url": "https://oldschool.runescape.wiki/w/Corpse_(Xarth)?oldid=15379470",
+        "revision": 15379470,
+        "timestamp": "2026-10-22T16:58:13Z"
       },
       "status": {
-        "profile": "provisional screenshot",
-        "defensive.light": "unpublished",
-        "defensive.standard": "unpublished",
-        "defensive.heavy": "unpublished",
-        "attributes": "unconfirmed"
+        "profile": "wiki",
+        "defensive.light": "wiki",
+        "defensive.standard": "wiki",
+        "defensive.heavy": "wiki",
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.atk": "wiki",
+        "skills.str": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "skills.ranged": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "size": "wiki",
+        "weakness": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
+        "Flat armour not published; raw DPS assumes 0.",
+        "No encounter downtime, phase damage multipliers or raid party scaling modeled."
       ],
-      "encounterNote": "Corpse spell-speed overrides, dousing transitions, extra corpse spawns and healing are not simulated. These are raw stat comparisons at normal weapon/spell speed."
+      "encounterNote": "Water and ice spells use the Wiki-reported 1-tick attack interval. Dousing is selected manually using the normal/doused target; extra corpse spawns from fire spells are not simulated. No undead attribute is confirmed.",
+      "corpseSpellSpeed": 1
     },
     "Void Rift": {
       "name": "Void Rift",
@@ -1836,9 +1996,9 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
-        "url": "https://oldschool.runescape.wiki/w/Void_Rift",
-        "checkedAt": "2026-10-21T13:55:26.831Z"
+        "url": "https://oldschool.runescape.wiki/w/Void_Rift?oldid=15379268",
+        "revision": 15379268,
+        "timestamp": "2026-10-22T11:43:59Z"
       },
       "status": {
         "profile": "provisional screenshot",
@@ -1848,12 +2008,15 @@
         "attributes": "unconfirmed",
         "skills.hp": "wiki",
         "skills.def": "wiki",
-        "skills.magic": "wiki"
+        "skills.magic": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
-        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+        "Fields marked wiki are verified against the linked revision; remaining screenshot values are provisional. Ranged defences and flat armour remain unpublished.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
       "encounterNote": "The empowerment obtained on killing a rift is not simulated."
     },
@@ -1897,17 +2060,27 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data."
+        "url": "https://oldschool.runescape.wiki/w/Void_Siphon?oldid=15378633",
+        "revision": 15378633,
+        "timestamp": "2026-10-21T16:55:12Z"
       },
       "status": {
         "profile": "provisional screenshot",
         "defensive.light": "unpublished",
         "defensive.standard": "unpublished",
         "defensive.heavy": "unpublished",
-        "attributes": "unconfirmed"
+        "attributes": "unconfirmed",
+        "skills.hp": "wiki",
+        "skills.def": "wiki",
+        "skills.magic": "wiki",
+        "defensive.stab": "wiki",
+        "defensive.slash": "wiki",
+        "defensive.crush": "wiki",
+        "defensive.magic": "wiki",
+        "size": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
+        "Fields marked wiki are verified against the linked revision; remaining screenshot values are provisional. Ranged defences and flat armour remain unpublished.",
         "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
       "encounterNote": "Provisional add stats. Special damage rules and encounter buffs are not simulated."
@@ -1952,9 +2125,9 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
-        "url": "https://oldschool.runescape.wiki/w/Void_Augmenter",
-        "checkedAt": "2026-10-21T13:55:26.831Z"
+        "url": "https://oldschool.runescape.wiki/w/Void_Augmenter?oldid=15379106",
+        "revision": 15379106,
+        "timestamp": "2026-10-22T05:57:31Z"
       },
       "status": {
         "profile": "provisional screenshot",
@@ -1967,11 +2140,10 @@
         "skills.magic": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
-        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+        "Fields marked wiki are verified against the linked revision; remaining screenshot values are provisional. Ranged defences and flat armour remain unpublished.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
-      "encounterNote": "Blue crystal: 44 HP, 175 Defence and 300 Magic are Wiki-confirmed. Defence bonuses are provisional screenshot values; ranged bonuses are still unknown."
+      "encounterNote": "Wiki reports the kill buff sets 99-base Attack/Strength to 116 and Magic/Ranged to 112. This encounter buff is not automatically applied to loadouts. Ranged defences remain unpublished."
     },
     "Void Vine": {
       "name": "Void Vine",
@@ -2013,9 +2185,9 @@
         "burn": null
       },
       "source": {
-        "description": "Manually transcribed from the supplied launch-day NPC table. Screenshot values are provisional, not independently verified game data.",
-        "url": "https://oldschool.runescape.wiki/w/Void_Vine",
-        "checkedAt": "2026-10-21T13:55:26.831Z"
+        "url": "https://oldschool.runescape.wiki/w/Void_Vine?oldid=15377692",
+        "revision": 15377692,
+        "timestamp": "2026-10-20T15:58:30Z"
       },
       "status": {
         "profile": "provisional screenshot",
@@ -2023,12 +2195,12 @@
         "defensive.standard": "unpublished",
         "defensive.heavy": "unpublished",
         "attributes": "unconfirmed",
-        "skills.hp": "wiki"
+        "skills.hp": "wiki",
+        "size": "wiki"
       },
       "notes": [
-        "Provisional screenshot stats; ranged defence, attributes, immunities and flat armour are unconfirmed.",
-        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated.",
-        "HP confirmed on the Wiki; Void Rift and Void Augmenter Defence and Magic levels also confirmed. Remaining combat values come from the screenshot."
+        "Fields marked wiki are verified against the linked revision; remaining screenshot values are provisional. Ranged defences and flat armour remain unpublished.",
+        "Raw outgoing DPS only; target availability, special damage rules, raid scaling and encounter buffs are not simulated."
       ],
       "encounterNote": "Only a teammate can free the trapped player by attacking the vine. The calculator does not model who can attack."
     }
@@ -2066,5 +2238,6 @@
       "No caps have been inferred for adds not named in the announcement. Magic-level and magic-defence-bonus reductions are not assigned new caps by this update.",
       "Ocellus P3 quadrant transitions no longer restore Defence. Old below-floor comparisons are obsolete."
     ]
-  }
+  },
+  "reviewDate": "2026-10-22"
 }

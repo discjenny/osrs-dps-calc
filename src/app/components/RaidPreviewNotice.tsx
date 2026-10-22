@@ -14,7 +14,7 @@ const RaidPreviewNotice = observer(() => {
     <aside className="max-w-[1420px] mx-auto px-4 py-3 text-sm text-gray-900 dark:text-gray-200 bg-body-100 dark:bg-dark-400">
       <p>
         <strong>Unofficial raid data preview.</strong>
-        {' Original OSRS Wiki calculator interface; base snapshot: 20 October 2026. Defence hotfix and demonbane review: 21 October 2026. '}
+        {' Original OSRS Wiki calculator interface; equipment snapshot: 20 October 2026. Raid stats and mechanics reviewed: 22 October 2026. '}
         <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/sources.html`}>Sources and limitations</a>
       </p>
       {raid && (

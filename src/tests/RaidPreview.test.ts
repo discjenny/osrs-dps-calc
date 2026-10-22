@@ -17,7 +17,7 @@ test('raid targets preserve P3 ranged bonuses and separate Bork states', () => {
   expect(p3.defensive).toMatchObject({
     crush: 30, light: 250, standard: 250, heavy: 250,
   });
-  expect(getTestMonster('Bork').defensive.flat_armour).toBe(12);
+  expect(getTestMonster('Bork').defensive.crush).toBe(20);
   expect(getTestMonster('Bork (stunned)').defensive.flat_armour).toBe(0);
 });
 
@@ -59,7 +59,7 @@ test('unpublished stats cannot silently turn into a usable zero-defence target',
   expect(getTestMonster('Xarth').defensive.stab).toBe(115);
   expect(calculationBlocker(p, m)).toBeUndefined();
   p.style.type = 'ranged';
-  expect(calculationBlocker(p, getTestMonster('Archive Guardian (unshielded)'))).toMatch(/Unpublished NPC defence bonuses/);
+  expect(calculationBlocker(p, getTestMonster('Archive Guardian (unshielded)'))).toBeUndefined();
   p.style.type = 'crush';
   expect(calculationBlocker(p, m)).toBeUndefined();
   expect(calculationBlocker(p, getTestMonster('Ocellus phase 2'))).toMatch(/Unpublished NPC levels: hp/);
@@ -75,7 +75,7 @@ test('new unsupported effects are searchable but do not produce misleading DPS',
 test('raid adds are distinct from ordinary monsters and preserve screenshot stats', () => {
   const adds = getRaidMonsters().filter((m) => m.version?.includes('provisional stats'));
   expect(adds.map((m) => m.id)).toEqual([
-    16662, 16649, 16650, 16651, 16653, 16666, 16670, 16687, 16688,
+    16662, 16649, 16650, 16651, 16653, 16670,
     16678, 16679, 16680, 16681,
   ]);
   const crystal = getTestMonster('Void Augmenter');

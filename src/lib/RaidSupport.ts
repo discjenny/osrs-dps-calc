@@ -14,6 +14,12 @@ type RaidProfile = {
   defenceReductionSource?: { url: string; checkedAt: string };
   encounterNote?: string;
   attributeSource?: { url: string; checkedAt: string };
+  flatArmourUnverified?: boolean;
+  magicDrainUnverified?: boolean;
+  magicResistance?: number;
+  guaranteedMeleeAccuracy?: boolean;
+  corpseSpellSpeed?: number;
+  calculatorId?: number;
 };
 
 const rows = Object.values(profiles.bosses) as unknown as RaidProfile[];
@@ -22,7 +28,7 @@ const numeric = (values: Record<string, number | null>) => Object.fromEntries(
 );
 
 export const getRaidMonsters = (): Omit<Monster, 'inputs'>[] => rows.map((row, i) => ({
-  id: row.sourceNpcIds[0] ?? (-20000 - i),
+  id: row.calculatorId ?? row.sourceNpcIds[0] ?? (-20000 - i),
   name: row.name,
   version: row.version,
   image: '',
@@ -64,6 +70,12 @@ export const calculationBlocker = (player: Player, monster: Monster): string | u
   const required = ['hp', 'def', 'magic'].filter((key) => raid.skills[key] === null);
   if (required.length) return `Unpublished NPC levels: ${required.join(', ')}. No DPS result is available.`;
   const style = player.style.type;
+  if (raid.flatArmourUnverified && style !== 'magic') {
+    return 'Conflicting Wiki armour values for normal Bork (8 vs 10). Physical DPS is unavailable; the stunned profile remains supported.';
+  }
+  if (raid.magicDrainUnverified && (monster.inputs.defenceReductions.accursed || monster.inputs.defenceReductions.seercull > 0)) {
+    return 'Guardian Magic-drain behaviour is unverified: the Wiki reports absorption instead of reduction. Remove Accursed sceptre / Seercull drains to calculate.';
+  }
   const keys = style === 'ranged' ? ['light', 'standard', 'heavy'] : [style || 'crush'];
   const missing = keys.filter((key) => raid.defensive[key] === null);
   if (missing.length) return `Unpublished NPC defence bonuses: ${missing.join(', ')}. This attack style cannot be calculated yet.`;

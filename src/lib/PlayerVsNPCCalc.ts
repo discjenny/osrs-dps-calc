@@ -91,6 +91,7 @@ import {
   rubyBolts,
 } from '@/lib/dists/bolts';
 import { burningClawDoT, burningClawSpec, dClawDist } from '@/lib/dists/claws';
+import { getRaidProfile } from '@/lib/RaidSupport';
 
 const PARTIALLY_IMPLEMENTED_SPECS: string[] = [
   'Ancient godsword',
@@ -1212,6 +1213,10 @@ export default class PlayerVsNPCCalc extends BaseCalc {
       return this.track(DetailKey.PLAYER_ACCURACY_FINAL, this.opts.overrides.accuracy);
     }
 
+    if (this.monster.id !== -1 && getRaidProfile(this.monster)?.guaranteedMeleeAccuracy && this.isUsingMeleeStyle()) {
+      return this.track(DetailKey.PLAYER_ACCURACY_FINAL, 1.0);
+    }
+
     if (GUARANTEED_ACCURACY_MONSTERS.includes(this.monster.id)) {
       return this.track(DetailKey.PLAYER_ACCURACY_FINAL, 1.0);
     }
@@ -2031,6 +2036,10 @@ export default class PlayerVsNPCCalc extends BaseCalc {
     if (flatArmour && styleType !== 'magic') {
       relevantEffects.push([flatAddTransformer(-flatArmour), { transformInaccurate: false }]);
     }
+    const magicResistance = this.monster.id !== -1 ? getRaidProfile(this.monster)?.magicResistance : undefined;
+    if (magicResistance && styleType === 'magic') {
+      relevantEffects.push([flatAddTransformer(-magicResistance), { transformInaccurate: false }]);
+    }
 
     const transformer: HitTransformer = (hitsplat) => {
       let dist = HitDistribution.single(1.0, [hitsplat]);
@@ -2109,6 +2118,11 @@ export default class PlayerVsNPCCalc extends BaseCalc {
    * Returns the player's attack speed.
    */
   public getAttackSpeed(): number {
+    const corpseSpeed = this.monster.id !== -1 ? getRaidProfile(this.monster)?.corpseSpellSpeed : undefined;
+    if (corpseSpeed && this.player.style.type === 'magic'
+      && (this.player.spell?.element === 'water' || this.player.spell?.name.startsWith('Ice '))) {
+      return corpseSpeed;
+    }
     return this.player.attackSpeed
       ?? calculateAttackSpeed(this.player, this.monster);
   }
